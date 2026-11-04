@@ -1,0 +1,854 @@
+municipality6,municipality_name,doce,main_basin,dnaee_subbasin,alto_sao_francisco,paraopeba_river_km,paraopeba_10km,dam_dist_km,river_dist_km
+310010,Abadia dos Dourados,0,Paranaíba,60,0,224.72,0,473.229,441.623
+310020,Abaeté,0,"Alto São Francisco, até Três Marias",40,1,4.98,1,238.9,208.117
+310030,Abre Campo,1,Doce,56,0,141.1,0,101.978,26.912
+310040,Acaiaca,1,Doce,56,0,79.76,0,38.86,6.658
+310050,Açucena,1,Doce,56,0,191.5,0,165.587,3.765
+310060,Água Boa,1,Doce,56,0,260.77,0,274.11,67.759
+310070,Água Comprida,0,Grande,61,0,318.7,0,488.655,467.556
+310080,Aguanil,0,Grande,61,0,145.01,0,225.595,204.914
+310090,Águas Formosas,0,"São Mateus, Itanhém e outros",55,0,430.38,0,441.209,205.758
+310100,Águas Vermelhas,0,"Pardo, Cachoeira e outros",53,0,463.67,0,548.992,326.44
+310110,Aimorés,1,Doce,56,0,278.33,0,240.062,0
+310120,Aiuruoca,0,Grande,61,0,131.22,0,233.146,203.829
+310130,Alagoa,0,Grande,61,0,161.03,0,255.936,235.937
+310140,Albertina,0,Grande,61,0,314.36,0,399.168,378.331
+310150,Além Paraíba,0,Paraíba do Sul,58,0,141.68,0,194.025,157.31
+310160,Alfenas,0,Grande,61,0,209.07,0,296.077,266.853
+310163,Alfredo Vasconcelos,0,Grande,61,0,25.88,0,108.084,90.915
+310170,Almenara,0,Jequitinhonha,54,0,497.13,0,545.801,295.729
+310180,Alpercata,1,Doce,56,0,245.8,0,201.889,0
+310190,Alpinópolis,0,Grande,61,0,221.82,0,316.891,292.956
+310200,Alterosa,0,Grande,61,0,220.98,0,306.609,281.073
+310205,Alto Caparaó,0,Litorâneas do Espírito Santo,57,0,195.77,0,164.325,91.371
+310210,Alto Rio Doce,1,Doce,56,0,24.99,0,92.055,71.511
+310220,Alvarenga,1,Doce,56,0,248.76,0,201.409,22.96
+310230,Alvinópolis,1,Doce,56,0,69.15,0,30.033,3.08
+310240,Alvorada de Minas,1,Doce,56,0,120.85,0,161.667,105.808
+310250,Amparo do Serra,1,Doce,56,0,102.41,0,72.856,23.832
+310260,Andradas,0,Grande,61,0,297.85,0,386.653,360.967
+310270,Cachoeira de Pajeú,0,Jequitinhonha,54,0,446.59,0,520.101,309.595
+310280,Andrelândia,0,Grande,61,0,81.48,0,192.476,155.769
+310285,Angelândia,0,Jequitinhonha,54,0,285.92,0,307.088,124.725
+310290,Antônio Carlos,0,Grande,61,0,43.3,0,138.936,114.312
+310300,Antônio Dias,1,Doce,56,0,132.74,0,92.4,15.242
+310310,Antônio Prado de Minas,0,Paraíba do Sul,58,0,165.24,0,160.049,109.205
+310320,Araçaí,0,Das Velhas - São Francisco,41,0,26.17,0,138.627,130.44
+310330,Aracitaba,0,Paraíba do Sul,58,0,63.58,0,127.4,110.154
+310340,Araçuaí,0,Jequitinhonha,54,0,334.11,0,399.401,184.625
+310350,Araguari,0,Paranaíba,60,0,283.71,0,536.96,485.377
+310360,Arantina,0,Grande,61,0,111.31,0,206.534,185.824
+310370,Araponga,1,Doce,56,0,120.69,0,108.154,51.603
+310375,Araporã,0,Paranaíba,60,0,404.51,0,630.608,608.584
+310380,Arapuá,0,Das Velhas - São Francisco,41,0,92.3,0,312.172,298.667
+310390,Araújos,0,"Alto São Francisco, até Três Marias",40,1,61.16,0,188.25,171.307
+310400,Araxá,0,Paranaíba,60,0,186.75,0,377.859,345.34
+310410,Arceburgo,0,Grande,61,0,303.68,0,388.632,367.574
+310420,Arcos,0,"Alto São Francisco, até Três Marias",40,1,114.49,0,222.67,195.238
+310430,Areado,0,Grande,61,0,225.24,0,311.11,284.006
+310440,Argirita,0,Paraíba do Sul,58,0,125.51,0,170.742,142.754
+310445,Aricanduva,0,Jequitinhonha,54,0,245.74,0,276.302,118.069
+310450,Arinos,0,Urucuia - São Francisco,43,0,300.79,0,569.596,512.261
+310460,Astolfo Dutra,0,Paraíba do Sul,58,0,98.67,0,135.666,108.348
+310470,Ataléia,0,"São Mateus, Itanhém e outros",55,0,349.38,0,332.177,61.789
+310480,Augusto de Lima,0,Das Velhas - São Francisco,41,0,81.41,0,250.521,208.911
+310490,Baependi,0,Grande,61,0,145.55,0,249.133,218.03
+310500,Baldim,0,Das Velhas - São Francisco,41,0,53.79,0,116.923,105.085
+310510,Bambuí,0,"Alto São Francisco, até Três Marias",40,1,131.39,0,270.188,237.154
+310520,Bandeira,0,Jequitinhonha,54,0,537.55,0,574.426,342.191
+310530,Bandeira do Sul,0,Grande,61,0,274.13,0,351.745,334.646
+310540,Barão de Cocais,1,Doce,56,0,57.26,0,37.449,27.404
+310550,Barão de Monte Alto,0,Paraíba do Sul,58,0,155,0,167.275,120.141
+310560,Barbacena,0,Grande,61,0,28.5,0,122.9,94.674
+310570,Barra Longa,1,Doce,56,0,81.27,0,37.218,0
+310590,Barroso,0,Grande,61,0,29.86,0,122.284,103.592
+310600,Bela Vista de Minas,1,Doce,56,0,107.64,0,57.223,34.225
+310610,Belmiro Braga,0,Paraíba do Sul,58,0,114.98,0,198.852,174.889
+310620,Belo Horizonte,0,Das Velhas - São Francisco,41,0,16.63,0,66.892,54.635
+310630,Belo Oriente,1,Doce,56,0,191.95,0,147.843,0
+310640,Belo Vale,0,"Alto São Francisco, até Três Marias",40,1,0,1,71.119,44.471
+310650,Berilo,0,Jequitinhonha,54,0,315.23,0,389.846,205.096
+310660,Bertópolis,0,"São Mateus, Itanhém e outros",55,0,476.25,0,473.143,224.22
+310665,Berizal,0,"Pardo, Cachoeira e outros",53,0,462.85,0,539.924,343.488
+310670,Betim,0,"Alto São Francisco, até Três Marias",40,1,0,1,87.251,68.51
+310680,Bias Fortes,0,Paraíba do Sul,58,0,70.9,0,162.431,141.099
+310690,Bicas,0,Paraíba do Sul,58,0,112.87,0,173.368,152.58
+310700,Biquinhas,0,"Alto São Francisco, até Três Marias",40,1,19.82,0,276.462,257.758
+310710,Boa Esperança,0,Grande,61,0,155.77,0,247.92,214.054
+310720,Bocaina de Minas,0,Grande,61,0,146.64,0,250.094,221.637
+310730,Bocaiúva,0,Jequitinhonha,54,0,149.54,0,330.091,211.151
+310740,Bom Despacho,0,"Alto São Francisco, até Três Marias",40,1,54.27,0,204.592,176.568
+310750,Bom Jardim de Minas,0,Grande,61,0,105.53,0,208.096,179.658
+310760,Bom Jesus da Penha,0,Grande,61,0,247.83,0,336.435,314.176
+310770,Bom Jesus do Amparo,1,Doce,56,0,76.8,0,56.343,50.923
+310780,Bom Jesus do Galho,1,Doce,56,0,174.29,0,123.632,0
+310790,Bom Repouso,0,Grande,61,0,289.43,0,380.391,356.854
+310800,Bom Sucesso,0,Grande,61,0,80.06,0,168.982,137.456
+310810,Bonfim,0,"Alto São Francisco, até Três Marias",40,1,0,1,84.192,62.391
+310820,Bonfinópolis de Minas,0,Urucuia - São Francisco,43,0,246.27,0,510.331,479.247
+310825,Bonito de Minas,0,Corrente e outros - São Francisco,45,0,369.62,0,606.674,482.237
+310830,Borda da Mata,0,Grande,61,0,273.87,0,364.349,340.362
+310840,Botelhos,0,Grande,61,0,263.78,0,350.416,322.679
+310850,Botumirim,0,Jequitinhonha,54,0,255.79,0,371.278,218.848
+310855,Brasilândia de Minas,0,Paracatu e outros - São Francisco,42,0,191,0,449.647,416.476
+310860,Brasília de Minas,0,Urucuia - São Francisco,43,0,259.81,0,458.963,376.516
+310870,Brás Pires,1,Doce,56,0,51.8,0,76.602,54.745
+310880,Braúnas,1,Doce,56,0,181.25,0,152.776,35.316
+310890,Brazópolis,0,Grande,61,0,247.06,0,342.808,317.833
+310900,Brumadinho,0,"Alto São Francisco, até Três Marias",40,1,0,1,73.915,46.905
+310910,Bueno Brandão,0,Grande,61,0,303.82,0,396.745,370.412
+310920,Buenópolis,0,Das Velhas - São Francisco,41,0,101.62,0,270.462,208.386
+310925,Bugre,1,Doce,56,0,204.88,0,150.884,0
+310930,Buritis,0,Urucuia - São Francisco,43,0,351.61,0,631.205,568.221
+310940,Buritizeiro,0,Paracatu e outros - São Francisco,42,0,89.72,0,378.234,312.549
+310945,Cabeceira Grande,0,Paracatu e outros - São Francisco,42,0,348.75,0,606.902,587.408
+310950,Cabo Verde,0,Grande,61,0,250.38,0,340.408,308.826
+310960,Cachoeira da Prata,0,"Alto São Francisco, até Três Marias",40,1,2.85,1,135.597,125.81
+310970,Cachoeira de Minas,0,Grande,61,0,245.56,0,344.297,314.669
+310980,Cachoeira Dourada,0,Paranaíba,60,0,442.39,0,661.514,641.261
+310990,Caetanópolis,0,"Alto São Francisco, até Três Marias",40,1,4.72,1,142.559,128.675
+311000,Caeté,0,Das Velhas - São Francisco,41,0,44.64,0,45.477,29.885
+311010,Caiana,0,Paraíba do Sul,58,0,191.8,0,167.484,105.414
+311020,Cajuri,1,Doce,56,0,101.68,0,93.418,54.53
+311030,Caldas,0,Grande,61,0,261.38,0,359.035,323.887
+311040,Camacho,0,Grande,61,0,101.62,0,185.224,164.237
+311050,Camanducaia,0,"Paraná, Tietê e outros",62,0,297.85,0,398.319,368.765
+311060,Cambuí,0,Grande,61,0,286.73,0,382.534,356.348
+311070,Cambuquira,0,Grande,61,0,174.65,0,265.81,242.121
+311080,Campanário,1,Doce,56,0,299.93,0,280.485,48.744
+311090,Campanha,0,Grande,61,0,181.2,0,275.871,246.647
+311100,Campestre,0,Grande,61,0,246.91,0,336.194,307.631
+311110,Campina Verde,0,Grande,61,0,439.31,0,674.665,613.206
+311115,Campo Azul,0,Urucuia - São Francisco,43,0,240.64,0,439.663,383.307
+311120,Campo Belo,0,Grande,61,0,114.33,0,207.306,173.442
+311130,Campo do Meio,0,Grande,61,0,185.32,0,272.672,244.309
+311140,Campo Florido,0,Grande,61,0,357.23,0,550.402,519.431
+311150,Campos Altos,0,Paranaíba,60,0,121.39,0,299.084,276.53
+311160,Campos Gerais,0,Grande,61,0,177.75,0,269.915,235.885
+311170,Canaã,1,Doce,56,0,117.03,0,97.196,44.09
+311180,Canápolis,0,Paranaíba,60,0,407.98,0,635.848,604.408
+311190,Cana Verde,0,Grande,61,0,122.81,0,205.823,180.278
+311200,Candeias,0,Grande,61,0,110.11,0,203.267,170.414
+311205,Cantagalo,1,Doce,56,0,210.09,0,207.627,70.216
+311210,Caparaó,0,Paraíba do Sul,58,0,184.78,0,157.128,84.479
+311220,Capela Nova,1,Doce,56,0,14.6,0,81.211,64.68
+311230,Capelinha,0,Jequitinhonha,54,0,258.09,0,300.243,119.736
+311240,Capetinga,0,Grande,61,0,272.01,0,380.447,355.868
+311250,Capim Branco,0,Das Velhas - São Francisco,41,0,26.94,0,107.041,100.283
+311260,Capinópolis,0,Paranaíba,60,0,445.31,0,669.413,640.402
+311265,Capitão Andrade,1,Doce,56,0,261.38,0,212.584,7.028
+311270,Capitão Enéas,0,Verde Grande - São Francisco,44,0,292.98,0,459.231,332.068
+311280,Capitólio,0,Grande,61,0,180.95,0,288.089,257.568
+311290,Caputira,1,Doce,56,0,170.23,0,121.78,36.298
+311300,Caraí,0,"São Mateus, Itanhém e outros",55,0,361.51,0,393.654,168.979
+311310,Caranaíba,0,"Alto São Francisco, até Três Marias",40,1,1.31,1,82.122,62.805
+311320,Carandaí,0,Grande,61,0,0,1,98.276,72.701
+311330,Carangola,0,Paraíba do Sul,58,0,162.21,0,149.111,82.289
+311340,Caratinga,1,Doce,56,0,184.46,0,148.847,0
+311350,Carbonita,0,Jequitinhonha,54,0,209.98,0,308.473,169.191
+311360,Careaçu,0,Grande,61,0,223.74,0,313.049,290.734
+311370,Carlos Chagas,0,"São Mateus, Itanhém e outros",55,0,388.75,0,394.7,119.771
+311380,Carmésia,1,Doce,56,0,132.58,0,132.454,74.82
+311390,Carmo da Cachoeira,0,Grande,61,0,138.79,0,231.388,203.526
+311400,Carmo da Mata,0,"Alto São Francisco, até Três Marias",40,1,72.14,0,158.707,133.901
+311410,Carmo de Minas,0,Grande,61,0,182.59,0,277.529,253.086
+311420,Carmo do Cajuru,0,"Alto São Francisco, até Três Marias",40,1,37.74,0,134.26,109.111
+311430,Carmo do Paranaíba,0,Das Velhas - São Francisco,41,0,72.72,0,325.394,301.217
+311440,Carmo do Rio Claro,0,Grande,61,0,194.87,0,292.133,257.805
+311450,Carmópolis de Minas,0,"Alto São Francisco, até Três Marias",40,1,47.3,0,134.214,109.121
+311455,Carneirinho,0,Paranaíba,60,0,575.87,0,777.515,738.269
+311460,Carrancas,0,Grande,61,0,89.28,0,189.936,157.782
+311470,Carvalhópolis,0,Grande,61,0,223.17,0,305.535,286.837
+311480,Carvalhos,0,Grande,61,0,131.26,0,231.187,206.052
+311490,Casa Grande,0,"Alto São Francisco, até Três Marias",40,1,0.16,1,88.279,67.02
+311500,Cascalho Rico,0,Paranaíba,60,0,272.92,0,503.415,484.79
+311510,Cássia,0,Grande,61,0,247.63,0,368.46,343.937
+311520,Conceição da Barra de Minas,0,Grande,61,0,62.93,0,153.045,127.841
+311530,Cataguases,0,Paraíba do Sul,58,0,114.21,0,148.398,105.539
+311535,Catas Altas,1,Doce,56,0,60.33,0,15.897,10.943
+311540,Catas Altas da Noruega,1,Doce,56,0,31.32,0,51.622,34.156
+311545,Catuji,0,"São Mateus, Itanhém e outros",55,0,370.73,0,379.043,156.53
+311547,Catuti,0,Verde Grande - São Francisco,44,0,419.12,0,549.915,402.252
+311550,Caxambu,0,Grande,61,0,162.97,0,253.516,234.655
+311560,Cedro do Abaeté,0,"Alto São Francisco, até Três Marias",40,1,54.03,0,268.971,251.313
+311570,Central de Minas,0,"São Mateus, Itanhém e outros",55,0,327.77,0,276.128,27.939
+311580,Centralina,0,Paranaíba,60,0,407.09,0,628.778,604.215
+311590,Chácara,0,Paraíba do Sul,58,0,101.44,0,166.584,146.392
+311600,Chalé,1,Doce,56,0,231.27,0,184.892,75.274
+311610,Chapada do Norte,0,Jequitinhonha,54,0,298.31,0,361.321,169.056
+311615,Chapada Gaúcha,0,Urucuia - São Francisco,43,0,321.7,0,574.452,484.338
+311620,Chiador,0,Paraíba do Sul,58,0,140.37,0,204.834,176.521
+311630,Cipotânea,1,Doce,56,0,35.89,0,79.725,61.551
+311640,Claraval,0,Grande,61,0,265.35,0,399.653,382.313
+311650,Claro dos Poções,0,Paracatu e outros - São Francisco,42,0,179.79,0,363.653,294.008
+311660,Cláudio,0,"Alto São Francisco, até Três Marias",40,1,50.14,0,143.397,116.761
+311670,Coimbra,1,Doce,56,0,95.53,0,96.075,60.426
+311680,Coluna,1,Doce,56,0,204.29,0,229.593,99.913
+311690,Comendador Gomes,0,Grande,61,0,394.33,0,594.995,557.975
+311700,Comercinho,0,Jequitinhonha,54,0,413.96,0,476.042,273.885
+311710,Conceição da Aparecida,0,Grande,61,0,221.73,0,308.864,282.219
+311720,Conceição das Pedras,0,Grande,61,0,206.78,0,300.462,276.822
+311730,Conceição das Alagoas,0,Grande,61,0,334.2,0,517.945,483.124
+311740,Conceição de Ipanema,1,Doce,56,0,226.94,0,184.147,63.788
+311750,Conceição do Mato Dentro,1,Doce,56,0,94.66,0,144.124,66.816
+311760,Conceição do Pará,0,"Alto São Francisco, até Três Marias",40,1,29.27,0,159.767,140.372
+311770,Conceição do Rio Verde,0,Grande,61,0,160.45,0,256.442,230.298
+311780,Conceição dos Ouros,0,Grande,61,0,254.11,0,349.7,324.032
+311783,Cônego Marinho,0,Verde Grande - São Francisco,44,0,377.09,0,600.333,461.068
+311787,Confins,0,Das Velhas - São Francisco,41,0,41.87,0,87.07,82.385
+311790,Congonhal,0,Grande,61,0,259.83,0,347.584,325.565
+311800,Congonhas,0,"Alto São Francisco, até Três Marias",40,1,0,1,57.337,34.151
+311810,Congonhas do Norte,0,Das Velhas - São Francisco,41,0,89.97,0,154.677,125.097
+311820,Conquista,0,Grande,61,0,268.41,0,441.696,416.795
+311830,Conselheiro Lafaiete,0,"Alto São Francisco, até Três Marias",40,1,0.21,1,63.656,39.3
+311840,Conselheiro Pena,1,Doce,56,0,266.68,0,236.931,0
+311850,Consolação,0,Grande,61,0,277.02,0,366.924,346.323
+311860,Contagem,0,"Alto São Francisco, até Três Marias",40,1,14.17,0,79.016,63.079
+311870,Coqueiral,0,Grande,61,0,151.71,0,233.959,209.385
+311880,Coração de Jesus,0,Paracatu e outros - São Francisco,42,0,217.99,0,417.06,333.776
+311890,Cordisburgo,0,Das Velhas - São Francisco,41,0,19.85,0,150.927,133.84
+311900,Cordislândia,0,Grande,61,0,203.88,0,291.954,268.888
+311910,Corinto,0,Das Velhas - São Francisco,41,0,19.73,0,245.969,214.843
+311920,Coroaci,1,Doce,56,0,233.89,0,216.698,30.03
+311930,Coromandel,0,Paranaíba,60,0,172.35,0,439.962,390.866
+311940,Coronel Fabriciano,1,Doce,56,0,163.86,0,114.304,5.326
+311950,Coronel Murta,0,Jequitinhonha,54,0,357,0,428.712,236.052
+311960,Coronel Pacheco,0,Paraíba do Sul,58,0,90.09,0,156.53,138.729
+311970,Coronel Xavier Chaves,0,Grande,61,0,31.17,0,121.779,99.093
+311980,Córrego Danta,0,"Alto São Francisco, até Três Marias",40,1,119.21,0,272.94,242.181
+311990,Córrego do Bom Jesus,0,Grande,61,0,287.95,0,380.304,357.595
+311995,Córrego Fundo,0,Grande,61,0,130.47,0,222.449,206.642
+312000,Córrego Novo,1,Doce,56,0,160.35,0,110.489,0
+312010,Couto de Magalhães de Minas,0,Jequitinhonha,54,0,158.26,0,239.646,144.799
+312015,Crisólita,0,"São Mateus, Itanhém e outros",55,0,418.56,0,423.949,185.968
+312020,Cristais,0,Grande,61,0,143.76,0,232.989,204.749
+312030,Cristália,0,Jequitinhonha,54,0,298.4,0,398.485,240.658
+312040,Cristiano Otoni,0,"Alto São Francisco, até Três Marias",40,1,0,1,81.599,62.987
+312050,Cristina,0,Grande,61,0,200.48,0,295.781,271.393
+312060,Crucilândia,0,"Alto São Francisco, até Três Marias",40,1,19.29,0,100.709,80.88
+312070,Cruzeiro da Fortaleza,0,Paranaíba,60,0,147.25,0,369.242,351.233
+312080,Cruzília,0,Grande,61,0,122.73,0,222.372,193.776
+312083,Cuparaque,1,Doce,56,0,324.25,0,275.839,18.468
+312087,Curral de Dentro,0,"Pardo, Cachoeira e outros",53,0,446.88,0,520.886,323.764
+312090,Curvelo,0,Das Velhas - São Francisco,41,0,0,1,190.531,159.787
+312100,Datas,0,Das Velhas - São Francisco,41,0,109.92,0,197.625,151.941
+312110,Delfim Moreira,0,Grande,61,0,218.08,0,321.784,291.357
+312120,Delfinópolis,0,Grande,61,0,218.64,0,350.916,307.943
+312125,Delta,0,Grande,61,0,296.46,0,460.553,444.32
+312130,Descoberto,0,Paraíba do Sul,58,0,98.34,0,146.152,121.842
+312140,Desterro de Entre Rios,0,"Alto São Francisco, até Três Marias",40,1,15.05,0,100.508,71.313
+312150,Desterro do Melo,1,Doce,56,0,33.85,0,105.482,86.74
+312160,Diamantina,0,Jequitinhonha,54,0,98.96,0,250.653,154.727
+312170,Diogo de Vasconcelos,1,Doce,56,0,65.33,0,38.425,13.816
+312180,Dionísio,1,Doce,56,0,131.57,0,88.208,0
+312190,Divinésia,0,Paraíba do Sul,58,0,77.53,0,97.092,71.667
+312200,Divino,1,Doce,56,0,153.66,0,136.223,63.262
+312210,Divino das Laranjeiras,1,Doce,56,0,308.89,0,262.527,17.324
+312220,Divinolândia de Minas,1,Doce,56,0,206.98,0,184.062,47.951
+312230,Divinópolis,0,"Alto São Francisco, até Três Marias",40,1,46.81,0,158.613,129.02
+312235,Divisa Alegre,0,"Pardo, Cachoeira e outros",53,0,498.78,0,553.377,348.999
+312240,Divisa Nova,0,Grande,61,0,246.39,0,328.377,304.42
+312245,Divisópolis,0,Jequitinhonha,54,0,514.08,0,568.142,352.076
+312247,Dom Bosco,0,Paracatu e outros - São Francisco,42,0,233.19,0,493.555,469.641
+312250,Dom Cavati,1,Doce,56,0,224.27,0,167.415,22.088
+312260,Dom Joaquim,1,Doce,56,0,130,0,145.769,87.545
+312270,Dom Silvério,1,Doce,56,0,97.79,0,50.035,2.808
+312280,Dom Viçoso,0,Grande,61,0,193.15,0,288.038,265.732
+312290,Dona Euzébia,0,Paraíba do Sul,58,0,111.96,0,140.835,111.143
+312300,Dores de Campos,0,Grande,61,0,22.72,0,115.762,96.033
+312310,Dores de Guanhães,1,Doce,56,0,154.72,0,140.311,40.161
+312320,Dores do Indaiá,0,"Alto São Francisco, até Três Marias",40,1,59.74,0,237.591,214.236
+312330,Dores do Turvo,1,Doce,56,0,59.42,0,94.403,69.705
+312340,Doresópolis,0,"Alto São Francisco, até Três Marias",40,1,151.07,0,258.23,238.507
+312350,Douradoquara,0,Paranaíba,60,0,242.56,0,482.93,459.012
+312352,Durandé,1,Doce,56,0,213.65,0,169.642,75.472
+312360,Elói Mendes,0,Grande,61,0,186.62,0,275.497,250.237
+312370,Engenheiro Caldas,1,Doce,56,0,238.44,0,191.03,6.396
+312380,Engenheiro Navarro,0,Paracatu e outros - São Francisco,42,0,174.44,0,333.938,262.618
+312385,Entre Folhas,1,Doce,56,0,195.84,0,138.285,20.692
+312390,Entre Rios de Minas,0,"Alto São Francisco, até Três Marias",40,1,1.76,1,89.507,62.475
+312400,Ervália,0,Paraíba do Sul,58,0,112.03,0,110.941,59.98
+312410,Esmeraldas,0,"Alto São Francisco, até Três Marias",40,1,0,1,107.906,83.556
+312420,Espera Feliz,0,Paraíba do Sul,58,0,182.11,0,161.008,84.522
+312430,Espinosa,0,Verde Grande - São Francisco,44,0,462.24,0,604.472,425.614
+312440,Espírito Santo do Dourado,0,Grande,61,0,248.09,0,334.007,313.545
+312450,Estiva,0,Grande,61,0,275.68,0,368.21,344.263
+312460,Estrela Dalva,0,Paraíba do Sul,58,0,157.36,0,194.594,159.529
+312470,Estrela do Indaiá,0,"Alto São Francisco, até Três Marias",40,1,94.44,0,260.037,232.619
+312480,Estrela do Sul,0,Paranaíba,60,0,252.8,0,482.624,460.601
+312490,Eugenópolis,0,Paraíba do Sul,58,0,157.4,0,153.418,97.38
+312500,Ewbank da Câmara,0,Paraíba do Sul,58,0,76,0,153.338,136.99
+312510,Extrema,0,"Paraná, Tietê e outros",62,0,325.65,0,416.942,395.185
+312520,Fama,0,Grande,61,0,206.9,0,286.023,266.25
+312530,Faria Lemos,0,Paraíba do Sul,58,0,170.24,0,157.483,93.756
+312540,Felício dos Santos,0,Jequitinhonha,54,0,169.02,0,234.965,144.235
+312550,São Gonçalo do Rio Preto,0,Jequitinhonha,54,0,163.94,0,240.651,153.691
+312560,Felisburgo,0,Jequitinhonha,54,0,481.73,0,493.541,253.91
+312570,Felixlândia,0,"Alto São Francisco, até Três Marias",40,1,0,1,234.571,205.111
+312580,Fernandes Tourinho,1,Doce,56,0,236.17,0,186.846,0
+312590,Ferros,1,Doce,56,0,136.85,0,120.083,28.221
+312595,Fervedouro,1,Doce,56,0,138.61,0,123.261,64.132
+312600,Florestal,0,"Alto São Francisco, até Três Marias",40,1,0,1,114.182,96.799
+312610,Formiga,0,Grande,61,0,111.39,0,222.398,183.636
+312620,Formoso,0,Urucuia - São Francisco,43,0,380.78,0,639.626,560.758
+312630,Fortaleza de Minas,0,Grande,61,0,260.86,0,357.764,335.158
+312640,Fortuna de Minas,0,"Alto São Francisco, até Três Marias",40,1,0,1,135.816,118.339
+312650,Francisco Badaró,0,Jequitinhonha,54,0,317.1,0,382.867,201.059
+312660,Francisco Dumont,0,Paracatu e outros - São Francisco,42,0,135.34,0,321.224,263.189
+312670,Francisco Sá,0,Verde Grande - São Francisco,44,0,264.64,0,429.718,282.703
+312675,Franciscópolis,1,Doce,56,0,289.52,0,293.126,79.666
+312680,Frei Gaspar,0,"São Mateus, Itanhém e outros",55,0,328.81,0,308.148,70.82
+312690,Frei Inocêncio,1,Doce,56,0,277.15,0,250.21,21.47
+312695,Frei Lagonegro,1,Doce,56,0,218.38,0,243.352,109.284
+312700,Fronteira,0,Grande,61,0,434.21,0,600.021,580.075
+312705,Fronteira dos Vales,0,"São Mateus, Itanhém e outros",55,0,459.07,0,463.415,233.848
+312707,Fruta de Leite,0,Jequitinhonha,54,0,370.92,0,470.08,290.917
+312710,Frutal,0,Grande,61,0,393.97,0,584.18,544.958
+312720,Funilândia,0,Das Velhas - São Francisco,41,0,38.86,0,118.233,107.465
+312730,Galiléia,1,Doce,56,0,289.63,0,247.463,0
+312733,Gameleiras,0,Verde Grande - São Francisco,44,0,440.99,0,589.976,430.89
+312735,Glaucilândia,0,Verde Grande - São Francisco,44,0,241.22,0,372.968,275.25
+312737,Goiabeira,1,Doce,56,0,318.35,0,265.412,12.864
+312738,Goianá,0,Paraíba do Sul,58,0,90.23,0,152.355,133.452
+312740,Gonçalves,0,Grande,61,0,275.37,0,371.471,346.935
+312750,Gonzaga,1,Doce,56,0,211.69,0,178.823,29.449
+312760,Gouveia,0,Das Velhas - São Francisco,41,0,79.46,0,195.169,156.748
+312770,Governador Valadares,1,Doce,56,0,234.77,0,222.069,0
+312780,Grão Mogol,0,Jequitinhonha,54,0,265.21,0,424.41,247.395
+312790,Grupiara,0,Paranaíba,60,0,263.36,0,495.594,477.485
+312800,Guanhães,1,Doce,56,0,165.48,0,166.407,40.171
+312810,Guapé,0,Grande,61,0,168.66,0,268.331,232.458
+312820,Guaraciaba,1,Doce,56,0,75.78,0,56.198,17.962
+312825,Guaraciama,0,Jequitinhonha,54,0,221.57,0,353.266,250.516
+312830,Guaranésia,0,Grande,61,0,284.63,0,372.494,349.368
+312840,Guarani,0,Paraíba do Sul,58,0,82.47,0,133.553,111.377
+312850,Guarará,0,Paraíba do Sul,58,0,121.52,0,177.741,157.878
+312860,Guarda-Mor,0,Paracatu e outros - São Francisco,42,0,214,0,479.424,451.179
+312870,Guaxupé,0,Grande,61,0,274.7,0,360.721,338.517
+312880,Guidoval,0,Paraíba do Sul,58,0,102.48,0,125.484,92.568
+312890,Guimarânia,0,Paranaíba,60,0,151.69,0,383.671,363.258
+312900,Guiricema,0,Paraíba do Sul,58,0,108.69,0,116.843,72.164
+312910,Gurinhatã,0,Paranaíba,60,0,466.72,0,688.134,650.441
+312920,Heliodora,0,Grande,61,0,211.39,0,301.362,278.974
+312930,Iapu,1,Doce,56,0,203.63,0,157.187,0
+312940,Ibertioga,0,Grande,61,0,52.9,0,149.501,125.523
+312950,Ibiá,0,Paranaíba,60,0,133.26,0,340.988,297.64
+312960,Ibiaí,0,Paracatu e outros - São Francisco,42,0,202.85,0,406.807,355.421
+312965,Ibiracatu,0,Verde Grande - São Francisco,44,0,339.89,0,513.337,414.253
+312970,Ibiraci,0,Grande,61,0,253.35,0,386.407,361.671
+312980,Ibirité,0,"Alto São Francisco, até Três Marias",40,1,8.65,1,71.529,58.396
+312990,Ibitiúra de Minas,0,Grande,61,0,290.56,0,373.369,354.227
+313000,Ibituruna,0,Grande,61,0,93.59,0,177.814,156.696
+313005,Icaraí de Minas,0,Urucuia - São Francisco,43,0,268.11,0,474.989,419.534
+313010,Igarapé,0,"Alto São Francisco, até Três Marias",40,1,0.06,1,96.289,81.786
+313020,Igaratinga,0,"Alto São Francisco, até Três Marias",40,1,25.61,0,139.373,120.469
+313030,Iguatama,0,"Alto São Francisco, até Três Marias",40,1,122.91,0,244.262,222.083
+313040,Ijaci,0,Grande,61,0,108.88,0,191.306,170.666
+313050,Ilicínea,0,Grande,61,0,174.83,0,261.214,236.514
+313055,Imbé de Minas,1,Doce,56,0,218.61,0,165.967,42.222
+313060,Inconfidentes,0,Grande,61,0,291.32,0,380.385,357.427
+313065,Indaiabira,0,"Pardo, Cachoeira e outros",53,0,441.52,0,541.219,350.962
+313070,Indianópolis,0,Paranaíba,60,0,262.52,0,486.089,457.523
+313080,Ingaí,0,Grande,61,0,117.25,0,206.294,183.139
+313090,Inhapim,1,Doce,56,0,205.81,0,172.02,22.366
+313100,Inhaúma,0,"Alto São Francisco, até Três Marias",40,1,1.21,1,131.593,114.354
+313110,Inimutaba,0,Das Velhas - São Francisco,41,0,30.17,0,190.504,174.745
+313115,Ipaba,1,Doce,56,0,196.19,0,142.366,0
+313120,Ipanema,1,Doce,56,0,227.31,0,181.974,56.831
+313130,Ipatinga,1,Doce,56,0,172.93,0,122.292,0.031
+313140,Ipiaçu,0,Paranaíba,60,0,486.65,0,704.725,682.044
+313150,Ipuiúna,0,Grande,61,0,255.21,0,347.263,318.632
+313160,Iraí de Minas,0,Paranaíba,60,0,226.27,0,443.658,425.477
+313170,Itabira,1,Doce,56,0,83.93,0,70.314,48.846
+313180,Itabirinha,0,"São Mateus, Itanhém e outros",55,0,342.83,0,295.598,48.896
+313190,Itabirito,0,Das Velhas - São Francisco,41,0,9.58,1,41.238,13.852
+313200,Itacambira,0,Jequitinhonha,54,0,231.58,0,369.011,237.223
+313210,Itacarambi,0,Verde Grande - São Francisco,44,0,379.48,0,570.835,436.396
+313220,Itaguara,0,"Alto São Francisco, até Três Marias",40,1,28.04,0,117.765,94.105
+313230,Itaipé,0,"São Mateus, Itanhém e outros",55,0,355.97,0,366.535,142.736
+313240,Itajubá,0,Grande,61,0,221.7,0,322.51,294.18
+313250,Itamarandiba,0,Jequitinhonha,54,0,192.66,0,271.477,117.652
+313260,Itamarati de Minas,0,Paraíba do Sul,58,0,109.7,0,148.151,122.63
+313270,Itambacuri,1,Doce,56,0,279.61,0,284.589,44.825
+313280,Itambé do Mato Dentro,1,Doce,56,0,102.86,0,92.453,71.314
+313290,Itamogi,0,Grande,61,0,295.25,0,390.59,366.593
+313300,Itamonte,0,Grande,61,0,170.08,0,270.926,245.089
+313310,Itanhandu,0,Grande,61,0,189.17,0,282.839,263.29
+313320,Itanhomi,1,Doce,56,0,250.81,0,205.29,11.926
+313330,Itaobim,0,Jequitinhonha,54,0,411.98,0,455.239,241.537
+313340,Itapagipe,0,Grande,61,0,429.95,0,630.293,590.898
+313350,Itapecerica,0,Grande,61,0,68.59,0,178.656,143.129
+313360,Itapeva,0,Grande,61,0,307.85,0,401.33,376.863
+313370,Itatiaiuçu,0,"Alto São Francisco, até Três Marias",40,1,11.79,0,108.289,87.384
+313375,Itaú de Minas,0,Grande,61,0,256.25,0,354.805,336.919
+313380,Itaúna,0,"Alto São Francisco, até Três Marias",40,1,18.23,0,123.535,98.279
+313390,Itaverava,1,Doce,56,0,14.41,0,56.472,34.308
+313400,Itinga,0,Jequitinhonha,54,0,380.7,0,441.726,223.83
+313410,Itueta,1,Doce,56,0,300.09,0,260.335,0
+313420,Ituiutaba,0,Paranaíba,60,0,422.45,0,657.133,609.068
+313430,Itumirim,0,Grande,61,0,102.61,0,189.625,166.78
+313440,Iturama,0,Grande,61,0,527,0,727.273,688.725
+313450,Itutinga,0,Grande,61,0,93.25,0,185.279,160.567
+313460,Jaboticatubas,0,Das Velhas - São Francisco,41,0,56.41,0,92.718,79.869
+313470,Jacinto,0,Jequitinhonha,54,0,535.94,0,561.438,309.616
+313480,Jacuí,0,Grande,61,0,259.22,0,357.522,331.671
+313490,Jacutinga,0,Grande,61,0,310.37,0,403.636,374.528
+313500,Jaguaraçu,1,Doce,56,0,147.69,0,97.925,12.159
+313505,Jaíba,0,Verde Grande - São Francisco,44,0,377.42,0,560.669,423.315
+313507,Jampruca,1,Doce,56,0,289.91,0,264.563,30.641
+313510,Janaúba,0,Verde Grande - São Francisco,44,0,334.79,0,496.572,338.475
+313520,Januária,0,Verde Grande - São Francisco,44,0,333.77,0,569.894,450.235
+313530,Japaraíba,0,"Alto São Francisco, até Três Marias",40,1,109.34,0,221.016,201.319
+313535,Japonvar,0,Verde Grande - São Francisco,44,0,311.97,0,489.208,395.825
+313540,Jeceaba,0,"Alto São Francisco, até Três Marias",40,1,0,1,75.828,49.868
+313545,Jenipapo de Minas,0,Jequitinhonha,54,0,318.53,0,365.835,173.815
+313550,Jequeri,1,Doce,56,0,114.44,0,88.134,21.673
+313560,Jequitaí,0,Paracatu e outros - São Francisco,42,0,158.5,0,355.475,299.398
+313570,Jequitibá,0,Das Velhas - São Francisco,41,0,39.35,0,128.442,117.665
+313580,Jequitinhonha,0,Jequitinhonha,54,0,434.71,0,497.22,244.625
+313590,Jesuânia,0,Grande,61,0,184.53,0,278.698,253.437
+313600,Joaíma,0,Jequitinhonha,54,0,423.01,0,464.056,212.297
+313610,Joanésia,1,Doce,56,0,171.47,0,135.674,24.719
+313620,João Monlevade,1,Doce,56,0,102.03,0,50.253,39.256
+313630,João Pinheiro,0,Paracatu e outros - São Francisco,42,0,89.79,0,394.922,330.565
+313640,Joaquim Felício,0,Paracatu e outros - São Francisco,42,0,127.32,0,294.526,242.003
+313650,Jordânia,0,Jequitinhonha,54,0,566.07,0,589.33,359.1
+313652,José Gonçalves de Minas,0,Jequitinhonha,54,0,298.72,0,381.686,218.629
+313655,José Raydan,1,Doce,56,0,240.47,0,242.512,74.757
+313657,Josenópolis,0,Jequitinhonha,54,0,335.19,0,423.56,252.447
+313660,Nova União,0,Das Velhas - São Francisco,41,0,70.57,0,67.323,56.284
+313665,Juatuba,0,"Alto São Francisco, até Três Marias",40,1,0,1,102.334,84.981
+313670,Juiz de Fora,0,Paraíba do Sul,58,0,79.4,0,171.852,138.023
+313680,Juramento,0,Verde Grande - São Francisco,44,0,241.22,0,379.749,266.787
+313690,Juruaia,0,Grande,61,0,256.33,0,342.846,318.229
+313695,Juvenília,0,Corrente e outros - São Francisco,45,0,476.76,0,658.628,531.836
+313700,Ladainha,0,"São Mateus, Itanhém e outros",55,0,313.44,0,336.636,121.805
+313710,Lagamar,0,Paracatu e outros - São Francisco,42,0,160.07,0,421.593,395.199
+313720,Lagoa da Prata,0,"Alto São Francisco, até Três Marias",40,1,97.36,0,218.452,194.232
+313730,Lagoa dos Patos,0,Paracatu e outros - São Francisco,42,0,185.99,0,382.732,337.046
+313740,Lagoa Dourada,0,"Alto São Francisco, até Três Marias",40,1,11.55,0,102.261,76.688
+313750,Lagoa Formosa,0,Paranaíba,60,0,92.57,0,346.74,318.027
+313753,Lagoa Grande,0,Paracatu e outros - São Francisco,42,0,161,0,425.158,401.747
+313760,Lagoa Santa,0,Das Velhas - São Francisco,41,0,46.86,0,82.338,71.316
+313770,Lajinha,1,Doce,56,0,225.11,0,191.334,78.041
+313780,Lambari,0,Grande,61,0,188.95,0,285.443,257.375
+313790,Lamim,1,Doce,56,0,26.89,0,63.551,47.923
+313800,Laranjal,0,Paraíba do Sul,58,0,142.49,0,163.027,120.41
+313810,Lassance,0,Das Velhas - São Francisco,41,0,76.47,0,294.63,254.484
+313820,Lavras,0,Grande,61,0,112.01,0,205.737,174.928
+313830,Leandro Ferreira,0,"Alto São Francisco, até Três Marias",40,1,40.38,0,180.385,162.815
+313835,Leme do Prado,0,Jequitinhonha,54,0,278.67,0,361.049,208.675
+313840,Leopoldina,0,Paraíba do Sul,58,0,117.06,0,170.068,129.633
+313850,Liberdade,0,Grande,61,0,121.81,0,223.209,196.527
+313860,Lima Duarte,0,Paraíba do Sul,58,0,84.89,0,184.325,157.974
+313862,Limeira do Oeste,0,Paranaíba,60,0,559.2,0,762.884,730.571
+313865,Lontra,0,Verde Grande - São Francisco,44,0,325.62,0,497.772,407.161
+313867,Luisburgo,1,Doce,56,0,178.45,0,142.343,71.757
+313868,Luislândia,0,Urucuia - São Francisco,43,0,276.85,0,468.095,398.646
+313870,Luminárias,0,Grande,61,0,117.82,0,215.674,185.692
+313880,Luz,0,"Alto São Francisco, até Três Marias",40,1,96.27,0,240.686,211.687
+313890,Machacalis,0,"São Mateus, Itanhém e outros",55,0,462.67,0,453.756,217.298
+313900,Machado,0,Grande,61,0,216.16,0,306.805,279.659
+313910,Madre de Deus de Minas,0,Grande,61,0,68.53,0,171.262,141.922
+313920,Malacacheta,1,Doce,56,0,286.08,0,300.527,96.794
+313925,Mamonas,0,Verde Grande - São Francisco,44,0,454.11,0,587.361,433.319
+313930,Manga,0,Verde Grande - São Francisco,44,0,436.22,0,629.43,488.541
+313940,Manhuaçu,1,Doce,56,0,177.3,0,136.911,38.169
+313950,Manhumirim,1,Doce,56,0,190.67,0,155.024,74.653
+313960,Mantena,0,"São Mateus, Itanhém e outros",55,0,343.77,0,299.943,45.943
+313970,Maravilhas,0,"Alto São Francisco, até Três Marias",40,1,0,1,153.997,137.131
+313980,Mar de Espanha,0,Paraíba do Sul,58,0,129.12,0,191.293,162.386
+313990,Maria da Fé,0,Grande,61,0,209.99,0,307.313,282.578
+314000,Mariana,1,Doce,56,0,45.3,0,15.462,0
+314010,Marilac,1,Doce,56,0,267.38,0,239.819,32.479
+314015,Mário Campos,0,"Alto São Francisco, até Três Marias",40,1,0,1,80.938,66.944
+314020,Maripá de Minas,0,Paraíba do Sul,58,0,119.98,0,172.92,153.09
+314030,Marliéria,1,Doce,56,0,143.23,0,101.721,0
+314040,Marmelópolis,0,Grande,61,0,219.04,0,310.793,292.437
+314050,Martinho Campos,0,"Alto São Francisco, até Três Marias",40,1,37.17,0,206.582,176.663
+314053,Martins Soares,1,Doce,56,0,208.3,0,164.539,78.242
+314055,Mata Verde,0,Jequitinhonha,54,0,547.3,0,579.137,357.483
+314060,Materlândia,1,Doce,56,0,168.09,0,201.172,106.358
+314070,Mateus Leme,0,"Alto São Francisco, até Três Marias",40,1,4.69,1,108.844,89.527
+314080,Matias Barbosa,0,Paraíba do Sul,58,0,114.17,0,186.275,169.237
+314085,Matias Cardoso,0,Verde Grande - São Francisco,44,0,426.99,0,598.109,459.15
+314090,Matipó,1,Doce,56,0,154.94,0,115.493,42.13
+314100,Mato Verde,0,Verde Grande - São Francisco,44,0,416.8,0,542.143,377.015
+314110,Matozinhos,0,Das Velhas - São Francisco,41,0,26.48,0,102.35,95.587
+314120,Matutina,0,Das Velhas - São Francisco,41,0,79.95,0,293.662,272.763
+314130,Medeiros,0,"Alto São Francisco, até Três Marias",40,1,160.83,0,306.75,272.555
+314140,Medina,0,Jequitinhonha,54,0,415.57,0,488.326,257.161
+314150,Mendes Pimentel,0,"São Mateus, Itanhém e outros",55,0,324.95,0,280.78,34.167
+314160,Mercês,0,Paraíba do Sul,58,0,49.78,0,109.542,84.505
+314170,Mesquita,1,Doce,56,0,175.68,0,137.796,14.794
+314180,Minas Novas,0,Jequitinhonha,54,0,278.87,0,337.552,144.93
+314190,Minduri,0,Grande,61,0,104.59,0,205.569,176.929
+314200,Mirabela,0,Verde Grande - São Francisco,44,0,277.23,0,451.189,353.17
+314210,Miradouro,0,Paraíba do Sul,58,0,134.51,0,127.778,70.528
+314220,Miraí,0,Paraíba do Sul,58,0,115.66,0,134.012,93.673
+314225,Miravânia,0,Verde Grande - São Francisco,44,0,436.17,0,622.48,518.737
+314230,Moeda,0,"Alto São Francisco, até Três Marias",40,1,0,1,61.441,44.207
+314240,Moema,0,"Alto São Francisco, até Três Marias",40,1,83.16,0,212.481,190.102
+314250,Monjolos,0,Das Velhas - São Francisco,41,0,81.51,0,215.037,179.687
+314260,Monsenhor Paulo,0,Grande,61,0,184.79,0,273.827,250.215
+314270,Montalvânia,0,Corrente e outros - São Francisco,45,0,458,0,654.828,542.423
+314280,Monte Alegre de Minas,0,Paranaíba,60,0,351.94,0,594.172,546.917
+314290,Monte Azul,0,Verde Grande - São Francisco,44,0,430.96,0,565.474,398.835
+314300,Monte Belo,0,Grande,61,0,243.55,0,326.951,303.489
+314310,Monte Carmelo,0,Paranaíba,60,0,220.31,0,456.877,422.994
+314315,Monte Formoso,0,Jequitinhonha,54,0,419.25,0,439.615,215.208
+314320,Monte Santo de Minas,0,Grande,61,0,284.86,0,383.436,353.174
+314330,Montes Claros,0,Verde Grande - São Francisco,44,0,202.86,0,407.533,290.053
+314340,Monte Sião,0,Grande,61,0,315.01,0,405.468,380.785
+314345,Montezuma,0,"Pardo, Cachoeira e outros",53,0,450.25,0,574.483,389.762
+314350,Morada Nova de Minas,0,"Alto São Francisco, até Três Marias",40,1,0.38,1,277.953,235.435
+314360,Morro da Garça,0,Das Velhas - São Francisco,41,0,15.38,0,219.145,208.101
+314370,Morro do Pilar,1,Doce,56,0,104.98,0,110.329,84.554
+314380,Munhoz,0,Grande,61,0,309.18,0,403.355,378.044
+314390,Muriaé,0,Paraíba do Sul,58,0,129.24,0,143.005,78.471
+314400,Mutum,1,Doce,56,0,245,0,208.738,37.18
+314410,Muzambinho,0,Grande,61,0,258.98,0,346.978,319.838
+314420,Nacip Raydan,1,Doce,56,0,254.91,0,234.213,38.292
+314430,Nanuque,0,"São Mateus, Itanhém e outros",55,0,421.5,0,412.507,139.927
+314435,Naque,1,Doce,56,0,212.02,0,163.38,0
+314437,Natalândia,0,Paracatu e outros - São Francisco,42,0,270.04,0,522.827,507.661
+314440,Natércia,0,Grande,61,0,207.87,0,305.458,277.318
+314450,Nazareno,0,Grande,61,0,77.24,0,166.886,142.442
+314460,Nepomuceno,0,Grande,61,0,136.43,0,222.99,194.303
+314465,Ninheira,0,"Pardo, Cachoeira e outros",53,0,493.71,0,577.245,376.209
+314467,Nova Belém,0,"São Mateus, Itanhém e outros",55,0,360.58,0,311.619,67.844
+314470,Nova Era,1,Doce,56,0,116.9,0,70.083,27.827
+314480,Nova Lima,0,Das Velhas - São Francisco,41,0,14.57,0,53.411,36.675
+314490,Nova Módica,0,"São Mateus, Itanhém e outros",55,0,318.4,0,281.289,37.502
+314500,Nova Ponte,0,Paranaíba,60,0,252.86,0,462.203,432.46
+314505,Nova Porteirinha,0,Verde Grande - São Francisco,44,0,371.35,0,504.104,368.793
+314510,Nova Resende,0,Grande,61,0,240.18,0,327.684,303.238
+314520,Nova Serrana,0,"Alto São Francisco, até Três Marias",40,1,39.58,0,167.982,147.774
+314530,Novo Cruzeiro,0,Jequitinhonha,54,0,314.53,0,355.622,134.358
+314535,Novo Oriente de Minas,0,"São Mateus, Itanhém e outros",55,0,399.78,0,408.325,170.772
+314537,Novorizonte,0,Jequitinhonha,54,0,395.01,0,485.516,311.402
+314540,Olaria,0,Paraíba do Sul,58,0,107.54,0,198.196,179.981
+314545,Olhos-d'Água,0,Jequitinhonha,54,0,153.16,0,308.315,207.652
+314550,Olímpio Noronha,0,Grande,61,0,195.4,0,285.949,265.554
+314560,Oliveira,0,Grande,61,0,55.32,0,150.049,112.082
+314570,Oliveira Fortes,0,Paraíba do Sul,58,0,54.31,0,126.155,111.005
+314580,Onça de Pitangui,0,"Alto São Francisco, até Três Marias",40,1,12.31,0,149.378,132.692
+314585,Oratórios,1,Doce,56,0,107.46,0,69.21,14.797
+314587,Orizânia,1,Doce,56,0,162.52,0,130.095,67.466
+314590,Ouro Branco,1,Doce,56,0,12.14,0,43.878,22.23
+314600,Ouro Fino,0,Grande,61,0,287.05,0,383.267,351.993
+314610,Ouro Preto,1,Doce,56,0,8.05,1,28.158,0
+314620,Ouro Verde de Minas,0,"São Mateus, Itanhém e outros",55,0,359.47,0,330.877,94.745
+314625,Padre Carvalho,0,Jequitinhonha,54,0,353.38,0,449.258,276.719
+314630,Padre Paraíso,0,Jequitinhonha,54,0,379.89,0,408.682,186.934
+314640,Paineiras,0,"Alto São Francisco, até Três Marias",40,1,6.34,1,261.805,233.453
+314650,Pains,0,"Alto São Francisco, até Três Marias",40,1,133.33,0,238.561,213.232
+314655,Pai Pedro,0,Verde Grande - São Francisco,44,0,400.67,0,540.185,384.818
+314660,Paiva,0,Paraíba do Sul,58,0,56.07,0,120.248,107.517
+314670,Palma,0,Paraíba do Sul,58,0,151.78,0,176.481,127.148
+314675,Palmópolis,0,"São Mateus, Itanhém e outros",55,0,509.58,0,503.181,262.94
+314690,Papagaios,0,"Alto São Francisco, até Três Marias",40,1,0,1,163.488,145.073
+314700,Paracatu,0,Paracatu e outros - São Francisco,42,0,205.59,0,499.746,447.504
+314710,Pará de Minas,0,"Alto São Francisco, até Três Marias",40,1,0,1,131.82,112.108
+314720,Paraguaçu,0,Grande,61,0,198.35,0,285.989,258.994
+314730,Paraisópolis,0,Grande,61,0,264.85,0,362.623,335.642
+314740,Paraopeba,0,"Alto São Francisco, até Três Marias",40,1,0,1,151.76,128.676
+314750,Passabém,1,Doce,56,0,124.89,0,99.539,62.384
+314760,Passa Quatro,0,Grande,61,0,196.48,0,293.522,270.746
+314770,Passa Tempo,0,"Alto São Francisco, até Três Marias",40,1,38.5,0,122.151,94.819
+314780,Passa Vinte,0,Paraíba do Sul,58,0,137.99,0,237.461,212.593
+314790,Passos,0,Grande,61,0,224.88,0,339.1,302.139
+314795,Patis,0,Verde Grande - São Francisco,44,0,302.65,0,470.054,373.464
+314800,Patos de Minas,0,Paranaíba,60,0,71.56,0,371.859,307.017
+314810,Patrocínio,0,Paranaíba,60,0,165.81,0,406.001,366.423
+314820,Patrocínio do Muriaé,0,Paraíba do Sul,58,0,156.86,0,161.722,114.837
+314830,Paula Cândido,1,Doce,56,0,75.38,0,84.822,52.471
+314840,Paulistas,1,Doce,56,0,190.67,0,206.086,92.114
+314850,Pavão,0,"São Mateus, Itanhém e outros",55,0,401.5,0,396.756,160.237
+314860,Peçanha,1,Doce,56,0,204.73,0,209.611,37.762
+314870,Pedra Azul,0,Jequitinhonha,54,0,469.24,0,535.508,308.549
+314875,Pedra Bonita,1,Doce,56,0,148.18,0,112.614,43.867
+314880,Pedra do Anta,1,Doce,56,0,106.99,0,84.034,31.769
+314890,Pedra do Indaiá,0,"Alto São Francisco, até Três Marias",40,1,86.37,0,189.541,166.821
+314900,Pedra Dourada,0,Paraíba do Sul,58,0,166.05,0,148.517,95.037
+314910,Pedralva,0,Grande,61,0,216.89,0,310.81,287.027
+314915,Pedras de Maria da Cruz,0,Verde Grande - São Francisco,44,0,326.06,0,524.254,421.913
+314920,Pedrinópolis,0,Paranaíba,60,0,236.76,0,444.196,422.201
+314930,Pedro Leopoldo,0,Das Velhas - São Francisco,41,0,26.12,0,92.906,79.658
+314940,Pedro Teixeira,0,Paraíba do Sul,58,0,86.55,0,172.526,155.557
+314950,Pequeri,0,Paraíba do Sul,58,0,118.05,0,183.31,162.482
+314960,Pequi,0,"Alto São Francisco, até Três Marias",40,1,0,1,144.953,133.147
+314970,Perdigão,0,"Alto São Francisco, até Três Marias",40,1,54.97,0,174.445,154.595
+314980,Perdizes,0,Paranaíba,60,0,182.53,0,406.359,361.424
+314990,Perdões,0,Grande,61,0,113.38,0,196.905,172.197
+314995,Periquito,1,Doce,56,0,220.3,0,178.003,0
+315000,Pescador,0,"São Mateus, Itanhém e outros",55,0,317.35,0,288.471,50.781
+315010,Piau,0,Paraíba do Sul,58,0,79.17,0,144.874,126.689
+315015,Piedade de Caratinga,1,Doce,56,0,209.05,0,152.382,39.913
+315020,Piedade de Ponte Nova,1,Doce,56,0,123.32,0,73.059,6.254
+315030,Piedade do Rio Grande,0,Grande,61,0,65.58,0,161.698,139.464
+315040,Piedade dos Gerais,0,"Alto São Francisco, até Três Marias",40,1,9.88,1,91.318,67.952
+315050,Pimenta,0,Grande,61,0,153.41,0,254.508,230.765
+315053,Pingo-d'Água,1,Doce,56,0,173.21,0,116.939,0
+315057,Pintópolis,0,Verde Grande - São Francisco,44,0,280.31,0,505.797,450.171
+315060,Piracema,0,"Alto São Francisco, até Três Marias",40,1,29.57,0,110.475,87.912
+315070,Pirajuba,0,Grande,61,0,373.06,0,549.038,527.666
+315080,Piranga,1,Doce,56,0,40.46,0,48.406,21.877
+315090,Piranguçu,0,Grande,61,0,244.96,0,340.726,317.454
+315100,Piranguinho,0,Grande,61,0,240.96,0,329.405,311.939
+315110,Pirapetinga,0,Paraíba do Sul,58,0,165.19,0,197.706,155.517
+315120,Pirapora,0,Das Velhas - São Francisco,41,0,140.06,0,351.703,323.162
+315130,Piraúba,0,Paraíba do Sul,58,0,81.19,0,124.451,101.285
+315140,Pitangui,0,"Alto São Francisco, até Três Marias",40,1,17.65,0,169.311,146.088
+315150,Piumhi,0,Grande,61,0,156.61,0,276.171,241.381
+315160,Planura,0,Grande,61,0,378.09,0,546.93,524.286
+315170,Poço Fundo,0,Grande,61,0,232.39,0,321.599,296.294
+315180,Poços de Caldas,0,Grande,61,0,281.36,0,372.424,341.383
+315190,Pocrane,1,Doce,56,0,249.84,0,207.297,29.724
+315200,Pompéu,0,"Alto São Francisco, até Três Marias",40,1,0,1,199.51,166.386
+315210,Ponte Nova,1,Doce,56,0,91.31,0,56.596,0
+315213,Ponto Chique,0,Paracatu e outros - São Francisco,42,0,227,0,436.812,388.723
+315217,Ponto dos Volantes,0,Jequitinhonha,54,0,387.99,0,432.872,208.849
+315220,Porteirinha,0,Verde Grande - São Francisco,44,0,345.67,0,507.341,328.615
+315230,Porto Firme,1,Doce,56,0,67.26,0,61.297,29.919
+315240,Poté,1,Doce,56,0,318.54,0,321.349,102.626
+315250,Pouso Alegre,0,Grande,61,0,247.78,0,348.137,314.598
+315260,Pouso Alto,0,Grande,61,0,176.03,0,270.195,248.882
+315270,Prados,0,Grande,61,0,22.1,0,119.757,93.214
+315280,Prata,0,Paranaíba,60,0,344.98,0,588.672,518.743
+315290,Pratápolis,0,Grande,61,0,264.4,0,365.066,342.28
+315300,Pratinha,0,Paranaíba,60,0,149.4,0,316.648,288.353
+315310,Presidente Bernardes,1,Doce,56,0,55.14,0,67.992,45.794
+315320,Presidente Juscelino,0,Das Velhas - São Francisco,41,0,59.73,0,181.436,160.599
+315330,Presidente Kubitschek,0,Das Velhas - São Francisco,41,0,114.79,0,178.653,132.319
+315340,Presidente Olegário,0,Paracatu e outros - São Francisco,42,0,101.22,0,378.508,336.836
+315350,Alto Jequitibá,1,Doce,56,0,186.02,0,155.297,81.606
+315360,Prudente de Morais,0,Das Velhas - São Francisco,41,0,34.08,0,111.502,106.03
+315370,Quartel Geral,0,"Alto São Francisco, até Três Marias",40,1,55.14,0,252.078,217.023
+315380,Queluzito,0,"Alto São Francisco, até Três Marias",40,1,0,1,76.124,57.466
+315390,Raposos,0,Das Velhas - São Francisco,41,0,39.09,0,46.591,38.844
+315400,Raul Soares,1,Doce,56,0,152.24,0,109.753,0
+315410,Recreio,0,Paraíba do Sul,58,0,148.58,0,178.572,138.554
+315415,Reduto,1,Doce,56,0,197.19,0,154.298,68.52
+315420,Resende Costa,0,Grande,61,0,23.44,0,114.828,82.908
+315430,Resplendor,1,Doce,56,0,302.74,0,262.927,0
+315440,Ressaquinha,0,Grande,61,0,16.76,0,103.675,84.638
+315445,Riachinho,0,Urucuia - São Francisco,43,0,263.57,0,515.094,478.391
+315450,Riacho dos Machados,0,Verde Grande - São Francisco,44,0,333.2,0,470.235,314.152
+315460,Ribeirão das Neves,0,Das Velhas - São Francisco,41,0,22.02,0,84.337,72.978
+315470,Ribeirão Vermelho,0,Grande,61,0,124.54,0,201.678,183.227
+315480,Rio Acima,0,Das Velhas - São Francisco,41,0,25.5,0,39.269,23.924
+315490,Rio Casca,1,Doce,56,0,129.41,0,79.484,0
+315500,Rio Doce,1,Doce,56,0,103.22,0,53.317,0
+315510,Rio do Prado,0,Jequitinhonha,54,0,497.76,0,500.944,263.203
+315520,Rio Espera,1,Doce,56,0,19.55,0,73.589,54.827
+315530,Rio Manso,0,"Alto São Francisco, até Três Marias",40,1,6.88,1,97.152,77.556
+315540,Rio Novo,0,Paraíba do Sul,58,0,82.45,0,143.576,122.067
+315550,Rio Paranaíba,0,Paranaíba,60,0,100.86,0,321.322,291.603
+315560,Rio Pardo de Minas,0,"Pardo, Cachoeira e outros",53,0,371.97,0,515.509,314.169
+315570,Rio Piracicaba,1,Doce,56,0,85.13,0,39.325,20.92
+315580,Rio Pomba,0,Paraíba do Sul,58,0,69.49,0,118.753,91.402
+315590,Rio Preto,0,Paraíba do Sul,58,0,119.94,0,210.402,191.393
+315600,Rio Vermelho,1,Doce,56,0,170.78,0,223.866,107.055
+315610,Ritápolis,0,Grande,61,0,43.39,0,131.857,106.998
+315620,Rochedo de Minas,0,Paraíba do Sul,58,0,112.76,0,165.165,145.239
+315630,Rodeiro,0,Paraíba do Sul,58,0,100.9,0,126.861,99.101
+315640,Romaria,0,Paranaíba,60,0,236.42,0,459.147,438.618
+315645,Rosário da Limeira,0,Paraíba do Sul,58,0,127.79,0,127.58,81.19
+315650,Rubelita,0,Jequitinhonha,54,0,359.56,0,451.018,268.301
+315660,Rubim,0,Jequitinhonha,54,0,506.96,0,524.25,281.403
+315670,Sabará,0,Das Velhas - São Francisco,41,0,36.08,0,55.889,41.794
+315680,Sabinópolis,1,Doce,56,0,148.29,0,179.925,84.699
+315690,Sacramento,0,Paranaíba,60,0,220.59,0,404.237,344.622
+315700,Salinas,0,Jequitinhonha,54,0,384.56,0,481.254,284.857
+315710,Salto da Divisa,0,Jequitinhonha,54,0,575.52,0,586.161,338.686
+315720,Santa Bárbara,1,Doce,56,0,46.56,0,21.971,9.539
+315725,Santa Bárbara do Leste,1,Doce,56,0,193.3,0,140.387,36.814
+315727,Santa Bárbara do Monte Verde,0,Paraíba do Sul,58,0,106.44,0,198.366,174.169
+315730,Santa Bárbara do Tugúrio,0,Paraíba do Sul,58,0,38.86,0,116.158,98.699
+315733,Santa Cruz de Minas,0,Grande,61,0,47.52,0,131.311,116.926
+315737,Santa Cruz de Salinas,0,Jequitinhonha,54,0,428.28,0,499.91,300.616
+315740,Santa Cruz do Escalvado,1,Doce,56,0,107.91,0,63.003,0
+315750,Santa Efigênia de Minas,1,Doce,56,0,222.96,0,185.731,26.756
+315760,Santa Fé de Minas,0,Paracatu e outros - São Francisco,42,0,206.14,0,454.214,410.542
+315765,Santa Helena de Minas,0,"São Mateus, Itanhém e outros",55,0,478.55,0,473.966,235.595
+315770,Santa Juliana,0,Paranaíba,60,0,238.45,0,438.881,413.34
+315780,Santa Luzia,0,Das Velhas - São Francisco,41,0,38.99,0,68.862,56.437
+315790,Santa Margarida,1,Doce,56,0,158.05,0,122.497,52.269
+315800,Santa Maria de Itabira,1,Doce,56,0,119.52,0,96.1,37.238
+315810,Santa Maria do Salto,0,Jequitinhonha,54,0,561.1,0,562.787,323.59
+315820,Santa Maria do Suaçuí,1,Doce,56,0,248.07,0,248.519,55.065
+315830,Santana da Vargem,0,Grande,61,0,164.99,0,247.493,225.146
+315840,Santana de Cataguases,0,Paraíba do Sul,58,0,130.3,0,149.695,110.832
+315850,Santana de Pirapama,0,Das Velhas - São Francisco,41,0,57.9,0,154.717,131.528
+315860,Santana do Deserto,0,Paraíba do Sul,58,0,123.24,0,195.904,172.46
+315870,Santana do Garambéu,0,Grande,61,0,78.74,0,173.155,152.958
+315880,Santana do Jacaré,0,Grande,61,0,109.29,0,187.124,167.816
+315890,Santana do Manhuaçu,1,Doce,56,0,205.75,0,160.404,57.026
+315895,Santana do Paraíso,1,Doce,56,0,176.26,0,132.549,0
+315900,Santana do Riacho,0,Das Velhas - São Francisco,41,0,80.98,0,117.952,102.136
+315910,Santana dos Montes,1,Doce,56,0,5.08,1,70.311,51.828
+315920,Santa Rita de Caldas,0,Grande,61,0,257.98,0,358.952,321.26
+315930,Santa Rita de Jacutinga,0,Paraíba do Sul,58,0,126.4,0,222.899,199.961
+315935,Santa Rita de Minas,1,Doce,56,0,196.78,0,140.663,32.148
+315940,Santa Rita de Ibitipoca,0,Grande,61,0,68.35,0,161.835,140.09
+315950,Santa Rita do Itueto,1,Doce,56,0,276.32,0,230.956,4.333
+315960,Santa Rita do Sapucaí,0,Grande,61,0,230.16,0,326.419,299.788
+315970,Santa Rosa da Serra,0,"Alto São Francisco, até Três Marias",40,1,104.75,0,280.269,263.554
+315980,Santa Vitória,0,Paranaíba,60,0,503.75,0,732.334,691.654
+315990,Santo Antônio do Amparo,0,Grande,61,0,93.78,0,177.387,150.5
+316000,Santo Antônio do Aventureiro,0,Paraíba do Sul,58,0,133.72,0,183.74,155.113
+316010,Santo Antônio do Grama,1,Doce,56,0,128.86,0,85.738,20.214
+316020,Santo Antônio do Itambé,1,Doce,56,0,149.87,0,196.032,115.667
+316030,Santo Antônio do Jacinto,0,Jequitinhonha,54,0,529.59,0,534.623,289.893
+316040,Santo Antônio do Monte,0,"Alto São Francisco, até Três Marias",40,1,66.63,0,196.66,162.633
+316045,Santo Antônio do Retiro,0,"Pardo, Cachoeira e outros",53,0,440.22,0,560.326,383.332
+316050,Santo Antônio do Rio Abaixo,1,Doce,56,0,126.9,0,111.028,75.229
+316060,Santo Hipólito,0,Das Velhas - São Francisco,41,0,74.68,0,219.923,193.124
+316070,Santos Dumont,0,Paraíba do Sul,58,0,57.32,0,139.895,118.746
+316080,São Bento Abade,0,Grande,61,0,145.03,0,229.534,210.703
+316090,São Brás do Suaçuí,0,"Alto São Francisco, até Três Marias",40,1,0,1,74.093,53.291
+316095,São Domingos das Dores,1,Doce,56,0,221.94,0,164.717,37.414
+316100,São Domingos do Prata,1,Doce,56,0,109.08,0,64.253,0
+316105,São Félix de Minas,0,"São Mateus, Itanhém e outros",55,0,323.8,0,277.883,36.013
+316110,São Francisco,0,Verde Grande - São Francisco,44,0,292.93,0,508.174,415.252
+316120,São Francisco de Paula,0,Grande,61,0,91.97,0,173.976,153.187
+316130,São Francisco de Sales,0,Grande,61,0,477.72,0,675.764,643.376
+316140,São Francisco do Glória,0,Paraíba do Sul,58,0,150.51,0,134.907,77.641
+316150,São Geraldo,1,Doce,56,0,89.58,0,99.237,64.018
+316160,São Geraldo da Piedade,1,Doce,56,0,228.51,0,188.565,16.445
+316165,São Geraldo do Baixio,1,Doce,56,0,311.59,0,260.214,10.444
+316170,São Gonçalo do Abaeté,0,Das Velhas - São Francisco,41,0,59.26,0,320.028,295.856
+316180,São Gonçalo do Pará,0,"Alto São Francisco, até Três Marias",40,1,36.69,0,149.939,131.919
+316190,São Gonçalo do Rio Abaixo,1,Doce,56,0,80.5,0,46,35.566
+316200,São Gonçalo do Sapucaí,0,Grande,61,0,200.69,0,295.362,266.569
+316210,São Gotardo,0,Das Velhas - São Francisco,41,0,78.23,0,287.159,266.053
+316220,São João Batista do Glória,0,Grande,61,0,211.17,0,317.994,290.821
+316225,São João da Lagoa,0,Paracatu e outros - São Francisco,42,0,197,0,389.096,321.543
+316230,São João da Mata,0,Grande,61,0,237.74,0,324.321,302.515
+316240,São João da Ponte,0,Verde Grande - São Francisco,44,0,317.05,0,486.554,366.792
+316245,São João das Missões,0,Verde Grande - São Francisco,44,0,429.61,0,603.993,488.778
+316250,São João del Rei,0,Grande,61,0,44.73,0,147.546,114.908
+316255,São João do Manhuaçu,1,Doce,56,0,174.43,0,133.075,58.662
+316257,São João do Manteninha,0,"São Mateus, Itanhém e outros",55,0,341.16,0,288.334,40.396
+316260,São João do Oriente,1,Doce,56,0,218.32,0,162.736,10.552
+316265,São João do Pacuí,0,Paracatu e outros - São Francisco,42,0,243.2,0,427.245,362.883
+316270,São João do Paraíso,0,"Pardo, Cachoeira e outros",53,0,468.19,0,569.793,362.51
+316280,São João Evangelista,1,Doce,56,0,189.22,0,203.06,75.628
+316290,São João Nepomuceno,0,Paraíba do Sul,58,0,103.3,0,159.55,133.184
+316292,São Joaquim de Bicas,0,"Alto São Francisco, até Três Marias",40,1,0,1,88.55,75.46
+316294,São José da Barra,0,Grande,61,0,203.78,0,300.841,276.706
+316295,São José da Lapa,0,Das Velhas - São Francisco,41,0,36.59,0,83.758,78.511
+316300,São José da Safira,1,Doce,56,0,270.88,0,253.37,49.099
+316310,São José da Varginha,0,"Alto São Francisco, até Três Marias",40,1,0,1,133.328,120.941
+316320,São José do Alegre,0,Grande,61,0,232.87,0,321.905,303.962
+316330,São José do Divino,0,"São Mateus, Itanhém e outros",55,0,334.87,0,296.624,49.178
+316340,São José do Goiabal,1,Doce,56,0,135.5,0,82.189,0
+316350,São José do Jacuri,1,Doce,56,0,217.24,0,235.584,90.935
+316360,São José do Mantimento,1,Doce,56,0,226.36,0,173.598,73.828
+316370,São Lourenço,0,Grande,61,0,181.64,0,271.316,253.958
+316380,São Miguel do Anta,1,Doce,56,0,106.62,0,93.376,46.425
+316390,São Pedro da União,0,Grande,61,0,262.44,0,351.128,328.068
+316400,São Pedro dos Ferros,1,Doce,56,0,139.77,0,90.406,0
+316410,São Pedro do Suaçuí,1,Doce,56,0,212.07,0,227.401,80.145
+316420,São Romão,0,Urucuia - São Francisco,43,0,247.83,0,477.794,422.594
+316430,São Roque de Minas,0,"Alto São Francisco, até Três Marias",40,1,177.47,0,323.676,267.361
+316440,São Sebastião da Bela Vista,0,Grande,61,0,238.37,0,327.786,306.188
+316443,São Sebastião da Vargem Alegre,0,Paraíba do Sul,58,0,121.38,0,124.579,83.484
+316447,São Sebastião do Anta,1,Doce,56,0,230.18,0,172.449,39.481
+316450,São Sebastião do Maranhão,1,Doce,56,0,234.33,0,259.591,93.666
+316460,São Sebastião do Oeste,0,"Alto São Francisco, até Três Marias",40,1,67.21,0,170.107,145.013
+316470,São Sebastião do Paraíso,0,Grande,61,0,275.57,0,382.497,349.907
+316480,São Sebastião do Rio Preto,1,Doce,56,0,119.93,0,105.042,67.499
+316490,São Sebastião do Rio Verde,0,Grande,61,0,189.36,0,279.793,261.897
+316500,São Tiago,0,Grande,61,0,54.97,0,144.122,111.897
+316510,São Tomás de Aquino,0,Grande,61,0,286.09,0,392.237,369.656
+316520,São Tomé das Letras,0,Grande,61,0,137.84,0,234.079,206.496
+316530,São Vicente de Minas,0,Grande,61,0,95.91,0,196.408,168.323
+316540,Sapucaí-Mirim,0,Grande,61,0,284.17,0,382.502,356.336
+316550,Sardoá,1,Doce,56,0,221.55,0,193.736,30.416
+316553,Sarzedo,0,"Alto São Francisco, até Três Marias",40,1,2.34,1,75.743,61.795
+316555,Setubinha,0,Jequitinhonha,54,0,296.71,0,320.801,123.731
+316556,Sem-Peixe,1,Doce,56,0,116.62,0,63.725,0
+316557,Senador Amaral,0,Grande,61,0,301.79,0,391.148,369.886
+316560,Senador Cortes,0,Paraíba do Sul,58,0,129.45,0,182.532,158.318
+316570,Senador Firmino,1,Doce,56,0,66.3,0,83.885,59.043
+316580,Senador José Bento,0,Grande,61,0,271.08,0,356.645,336.397
+316590,Senador Modestino Gonçalves,0,Jequitinhonha,54,0,177.11,0,266.113,147.202
+316600,Senhora de Oliveira,1,Doce,56,0,38.87,0,66.043,48.802
+316610,Senhora do Porto,1,Doce,56,0,147.86,0,150.739,72.568
+316620,Senhora dos Remédios,1,Doce,56,0,17.49,0,93.483,74.302
+316630,Sericita,1,Doce,56,0,139.37,0,104.732,40.348
+316640,Seritinga,0,Grande,61,0,124.9,0,219.358,199.485
+316650,Serra Azul de Minas,1,Doce,56,0,159.46,0,206.455,119.687
+316660,Serra da Saudade,0,"Alto São Francisco, até Três Marias",40,1,78.77,0,264.294,246.477
+316670,Serra dos Aimorés,0,"São Mateus, Itanhém e outros",55,0,476.13,0,430.757,172.923
+316680,Serra do Salitre,0,Paranaíba,60,0,132.49,0,359.535,330.678
+316690,Serrania,0,Grande,61,0,232.07,0,316.132,291.741
+316695,Serranópolis de Minas,0,Verde Grande - São Francisco,44,0,375.21,0,493.941,326.965
+316700,Serranos,0,Grande,61,0,121.28,0,215.303,195.354
+316710,Serro,1,Doce,56,0,126.34,0,188.856,106.012
+316720,Sete Lagoas,0,Das Velhas - São Francisco,41,0,8.23,1,123.871,106.203
+316730,Silveirânia,0,Paraíba do Sul,58,0,62.9,0,106.524,85.84
+316740,Silvianópolis,0,Grande,61,0,229.73,0,321.145,295.879
+316750,Simão Pereira,0,Paraíba do Sul,58,0,124.61,0,196.83,179.125
+316760,Simonésia,1,Doce,56,0,195.56,0,151.48,44.439
+316770,Sobrália,1,Doce,56,0,227.73,0,174.288,0
+316780,Soledade de Minas,0,Grande,61,0,169.16,0,263.042,240.731
+316790,Tabuleiro,0,Paraíba do Sul,58,0,68.56,0,129.968,109.259
+316800,Taiobeiras,0,"Pardo, Cachoeira e outros",53,0,421.58,0,515.192,319.343
+316805,Taparuba,1,Doce,56,0,248.73,0,196.439,47.807
+316810,Tapira,0,Paranaíba,60,0,193.08,0,362.611,324.004
+316820,Tapiraí,0,"Alto São Francisco, até Três Marias",40,1,146.64,0,289.591,261.291
+316830,Taquaraçu de Minas,0,Das Velhas - São Francisco,41,0,57.63,0,71.266,62.493
+316840,Tarumirim,1,Doce,56,0,230.11,0,189.256,16.427
+316850,Teixeiras,1,Doce,56,0,92.61,0,74.367,31.976
+316860,Teófilo Otoni,0,"São Mateus, Itanhém e outros",55,0,339.71,0,354.073,97.152
+316870,Timóteo,1,Doce,56,0,161.66,0,112.943,0
+316880,Tiradentes,0,Grande,61,0,39.85,0,126.924,109.748
+316890,Tiros,0,"Alto São Francisco, até Três Marias",40,1,47.4,0,294.862,268.64
+316900,Tocantins,0,Paraíba do Sul,58,0,76.62,0,115.435,91.233
+316905,Tocos do Moji,0,Grande,61,0,284.25,0,371.129,351.493
+316910,Toledo,0,Grande,61,0,326.44,0,414.886,395.076
+316920,Tombos,0,Paraíba do Sul,58,0,168.53,0,159.72,100.376
+316930,Três Corações,0,Grande,61,0,151.17,0,248.432,217.61
+316935,Três Marias,0,Das Velhas - São Francisco,41,0,15.22,0,276.578,240.305
+316940,Três Pontas,0,Grande,61,0,157.06,0,253.639,218.946
+316950,Tumiritinga,1,Doce,56,0,265.64,0,224.793,0
+316960,Tupaciguara,0,Paranaíba,60,0,349.68,0,591.42,550.056
+316970,Turmalina,0,Jequitinhonha,54,0,251.78,0,339.804,167.45
+316980,Turvolândia,0,Grande,61,0,221.65,0,310.234,286.211
+316990,Ubá,0,Paraíba do Sul,58,0,73.96,0,110.455,74.029
+317000,Ubaí,0,Urucuia - São Francisco,43,0,250.16,0,457.899,401.987
+317005,Ubaporanga,1,Doce,56,0,207.79,0,154.251,33.086
+317010,Uberaba,0,Grande,61,0,268.16,0,482.807,431.929
+317020,Uberlândia,0,Paranaíba,60,0,289.26,0,532.38,473.591
+317030,Umburatiba,0,"São Mateus, Itanhém e outros",55,0,455.77,0,440.943,200.596
+317040,Unaí,0,Paracatu e outros - São Francisco,42,0,230.77,0,560.487,468.032
+317043,União de Minas,0,Paranaíba,60,0,528.56,0,731.188,703.476
+317047,Uruana de Minas,0,Urucuia - São Francisco,43,0,298.74,0,554.578,529.52
+317050,Urucânia,1,Doce,56,0,118.58,0,72.796,10.383
+317052,Urucuia,0,Urucuia - São Francisco,43,0,275.16,0,521.887,456.17
+317057,Vargem Alegre,1,Doce,56,0,188.86,0,133.831,9.082
+317060,Vargem Bonita,0,Grande,61,0,190.79,0,305.819,281.612
+317065,Vargem Grande do Rio Pardo,0,"Pardo, Cachoeira e outros",53,0,453.81,0,561.596,383.026
+317070,Varginha,0,Grande,61,0,164.99,0,256.011,229.869
+317075,Varjão de Minas,0,Das Velhas - São Francisco,41,0,71.04,0,329.35,308.172
+317080,Várzea da Palma,0,Das Velhas - São Francisco,41,0,117.7,0,335.081,289.338
+317090,Varzelândia,0,Verde Grande - São Francisco,44,0,349.31,0,516.793,396.87
+317100,Vazante,0,Paracatu e outros - São Francisco,42,0,188.26,0,448.274,427.875
+317103,Verdelândia,0,Verde Grande - São Francisco,44,0,357.29,0,525.955,394.474
+317107,Veredinha,0,Jequitinhonha,54,0,250.77,0,315.534,152.459
+317110,Veríssimo,0,Paranaíba,60,0,322.84,0,520.129,491.213
+317115,Vermelho Novo,1,Doce,56,0,175.07,0,123.266,28.252
+317120,Vespasiano,0,Das Velhas - São Francisco,41,0,37.1,0,77.673,72.726
+317130,Viçosa,1,Doce,56,0,84.47,0,80.885,43.202
+317140,Vieiras,0,Paraíba do Sul,58,0,151.98,0,141.921,92.831
+317150,Mathias Lobato,1,Doce,56,0,274.22,0,239.073,21.266
+317160,Virgem da Lapa,0,Jequitinhonha,54,0,332.48,0,410.201,222.377
+317170,Virgínia,0,Grande,61,0,197.71,0,295.935,270.853
+317180,Virginópolis,1,Doce,56,0,193.61,0,178.403,41.747
+317190,Virgolândia,1,Doce,56,0,242.21,0,229.783,47.186
+317200,Visconde do Rio Branco,0,Paraíba do Sul,58,0,90.1,0,107.747,73.776
+317210,Volta Grande,0,Paraíba do Sul,58,0,153.15,0,195.107,161.7
+317220,Wenceslau Braz,0,Grande,61,0,237.48,0,333.153,310.141

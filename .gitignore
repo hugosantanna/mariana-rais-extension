@@ -1,0 +1,7 @@
+work/
+outputs/
+!inputs/*.csv
+.Rproj.user/
+.Rhistory
+.RData
+!rais_extension.Rproj
