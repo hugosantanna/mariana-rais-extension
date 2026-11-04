@@ -45,42 +45,48 @@ log_msg <- function(...) {
 # Column dictionary
 # Each canonical field lists the labels it goes by across RAIS layouts:
 # the Ministry's raw .txt headers, lower-cased/de-spaced variants, the English
-# harmonized names used in the paper's files, and Base dos Dados-style names.
+# harmonized names used in the paper's files, Base dos Dados-style names, and
+# Insper CDIA's names (which use an older layout for 2010).
 # Matching ignores case, accents, spaces and punctuation.
 ################################################################################
 
 RAIS_FIELDS <- list(
   muni          = c("Município", "Municipio", "MUNI", "id_municipio", "codemun"),
-  cnpj          = c("CNPJ / CEI", "CNPJ CEI", "CNPJ", "PLANT_ID", "id_estabelecimento", "cnpj_cei"),
-  cnpj_root     = c("CNPJ Raiz", "cnpj_raiz", "FIRM_ID"),
+  cnpj          = c("CNPJ / CEI", "CNPJ CEI", "CNPJ", "PLANT_ID", "id_estabelecimento", "cnpj_cei",
+                    "identificad"),
+  cnpj_root     = c("CNPJ Raiz", "cnpj_raiz", "FIRM_ID", "radic_cnpj"),
   pis           = c("PIS", "id_pis", "pis_pasep", "pis_secret"),
   cpf           = c("CPF", "id_cpf", "cpf_secret"),
   wage_avg      = c("Vl Remun Média Nom", "Vl Remun Media Nom", "Vl Rem Média Nom",
-                    "EARN_AVG_MONTH_NOM", "valor_remuneracao_media_nominal"),
+                    "EARN_AVG_MONTH_NOM", "valor_remuneracao_media_nominal", "rem_med_r"),
   wage_dec      = c("Vl Remun Dezembro Nom", "Vl Rem Dezembro Nom", "EARN_DEC_NOM",
-                    "valor_remuneracao_dezembro_nominal"),
+                    "valor_remuneracao_dezembro_nominal", "rem_dez_r"),
   wage_contract = c("Vl Salário Contratual", "Vl Salario Contratual", "CONTRACT_SALARY",
-                    "valor_salario_contratual"),
-  hours         = c("Qtd Hora Contr", "NUM_HOURS_CONTRACTED", "quantidade_horas_contratadas"),
-  sex           = c("Sexo Trabalhador", "Sexo", "GENDER", "sexo"),
+                    "valor_salario_contratual", "sal_contr"),
+  hours         = c("Qtd Hora Contr", "NUM_HOURS_CONTRACTED", "quantidade_horas_contratadas",
+                    "horas_contr"),
+  sex           = c("Sexo Trabalhador", "Sexo", "GENDER", "sexo", "genero"),
   race          = c("Raça Cor", "Raca Cor", "RACE_v2006", "raca_cor"),
   age           = c("Idade", "AGE"),
-  birth_date    = c("Data de Nascimento", "Data Nascimento", "DATE_OF_BIRTH", "data_nascimento"),
+  birth_date    = c("Data de Nascimento", "Data Nascimento", "DATE_OF_BIRTH", "data_nascimento",
+                    "dt_nasciment"),
   educ          = c("Escolaridade após 2005", "Escolaridade apos 2005", "Grau Instrução após 2005",
-                    "EDUC_v2005", "grau_instrucao_apos_2005"),
-  tenure        = c("Tempo Emprego", "TENURE_MONTHS", "tempo_emprego"),
+                    "EDUC_v2005", "grau_instrucao_apos_2005", "gr_instrucao"),
+  tenure        = c("Tempo Emprego", "TENURE_MONTHS", "tempo_emprego", "temp_empr"),
   hire_date     = c("Data Admissão Declarada", "Data Admissao Declarada", "Data Admissão",
-                    "HIRE_DATE", "data_admissao"),
+                    "HIRE_DATE", "data_admissao", "dt_admissao"),
   hire_month    = c("Mês Admissão", "Mes Admissao", "mes_admissao"),
-  contract_type = c("Tipo Vínculo", "Tipo Vinculo", "CONTRACT_TYPE", "tipo_vinculo"),
-  sep_month     = c("Mês Desligamento", "Mes Desligamento", "MONTH_OF_SEP", "mes_desligamento"),
+  contract_type = c("Tipo Vínculo", "Tipo Vinculo", "CONTRACT_TYPE", "tipo_vinculo", "tp_vinculo"),
+  sep_month     = c("Mês Desligamento", "Mes Desligamento", "MONTH_OF_SEP", "mes_desligamento",
+                    "mes_deslig"),
   sep_cause     = c("Motivo Desligamento", "Causa Desligamento", "CAUSE_OF_SEP",
                     "motivo_desligamento", "causa_desligamento", "causa_desli"),
-  cbo           = c("CBO Ocupação 2002", "CBO Ocupacao 2002", "OCCUP_CBO2002", "cbo_2002"),
-  cnae          = c("CNAE 2.0 Classe", "CNAE20_CLASS", "cnae_2", "cnae_2_classe"),
+  cbo           = c("CBO Ocupação 2002", "CBO Ocupacao 2002", "OCCUP_CBO2002", "cbo_2002", "ocup_2002"),
+  cnae          = c("CNAE 2.0 Classe", "CNAE20_CLASS", "cnae_2", "cnae_2_classe", "clas_cnae_20"),
   nature        = c("Natureza Jurídica", "Natureza Juridica", "LEGAL_NATURE_CONCLA2002",
                     "natureza_juridica"),
-  active_dec    = c("Vínculo Ativo 31/12", "Vinculo Ativo 31/12", "EMP_ON_DEC31", "vinculo_ativo_3112"),
+  active_dec    = c("Vínculo Ativo 31/12", "Vinculo Ativo 31/12", "EMP_ON_DEC31", "vinculo_ativo_3112",
+                    "emp_em_31_12"),
   estab_size    = c("Tamanho Estabelecimento", "ESTAB_SIZE", "tamanho_estabelecimento")
 )
 
