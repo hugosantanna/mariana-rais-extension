@@ -136,7 +136,9 @@ log_msg("2014 cohort: ", format(nrow(base), big.mark = ","), " workers; treated 
         uniqueN(base[mining_muni == 1L, municipality6]))
 
 if (SAMPLE_SHARE < 1) {
-  keep <- (as.numeric(substr(base$wid, 3, 10)) %% 10000) < SAMPLE_SHARE * 10000
+  draw <- suppressWarnings(as.numeric(substr(base$wid, 3, 10)))
+  if (anyNA(draw)) draw <- frank(base$wid, ties.method = "dense")  # pseudonymized IDs
+  keep <- (draw %% 10000) < SAMPLE_SHARE * 10000
   base <- base[keep]
   log_msg("SAMPLE_SHARE = ", SAMPLE_SHARE, ": keeping ", format(nrow(base), big.mark = ","), " cohort workers")
 }

@@ -53,8 +53,8 @@ RAIS_FIELDS <- list(
   muni          = c("Município", "Municipio", "MUNI", "id_municipio", "codemun"),
   cnpj          = c("CNPJ / CEI", "CNPJ CEI", "CNPJ", "PLANT_ID", "id_estabelecimento", "cnpj_cei"),
   cnpj_root     = c("CNPJ Raiz", "cnpj_raiz", "FIRM_ID"),
-  pis           = c("PIS", "id_pis", "pis_pasep"),
-  cpf           = c("CPF", "id_cpf"),
+  pis           = c("PIS", "id_pis", "pis_pasep", "pis_secret"),
+  cpf           = c("CPF", "id_cpf", "cpf_secret"),
   wage_avg      = c("Vl Remun Média Nom", "Vl Remun Media Nom", "Vl Rem Média Nom",
                     "EARN_AVG_MONTH_NOM", "valor_remuneracao_media_nominal"),
   wage_dec      = c("Vl Remun Dezembro Nom", "Vl Rem Dezembro Nom", "EARN_DEC_NOM",
@@ -74,7 +74,8 @@ RAIS_FIELDS <- list(
   hire_month    = c("Mês Admissão", "Mes Admissao", "mes_admissao"),
   contract_type = c("Tipo Vínculo", "Tipo Vinculo", "CONTRACT_TYPE", "tipo_vinculo"),
   sep_month     = c("Mês Desligamento", "Mes Desligamento", "MONTH_OF_SEP", "mes_desligamento"),
-  sep_cause     = c("Motivo Desligamento", "CAUSE_OF_SEP", "motivo_desligamento"),
+  sep_cause     = c("Motivo Desligamento", "Causa Desligamento", "CAUSE_OF_SEP",
+                    "motivo_desligamento", "causa_desligamento", "causa_desli"),
   cbo           = c("CBO Ocupação 2002", "CBO Ocupacao 2002", "OCCUP_CBO2002", "cbo_2002"),
   cnae          = c("CNAE 2.0 Classe", "CNAE20_CLASS", "cnae_2", "cnae_2_classe"),
   nature        = c("Natureza Jurídica", "Natureza Juridica", "LEGAL_NATURE_CONCLA2002",
@@ -185,10 +186,15 @@ pad_digits <- function(x, width) {
   x
 }
 
+# Numeric IDs are digit-cleaned and zero-padded. Pseudonymized IDs (e.g.
+# Insper's cpf_secret) can contain letters, so those are kept as they are.
 clean_id <- function(x, width) {
-  x <- pad_digits(x, width)
-  x[!is.na(x) & grepl("^0+$", x)] <- NA_character_
-  x
+  raw <- trimws(as_chr(x))
+  hashed <- !is.na(raw) & grepl("[A-Za-z]", raw)
+  out <- pad_digits(raw, width)
+  out[hashed] <- raw[hashed]
+  out[!is.na(out) & grepl("^0+$", out)] <- NA_character_
+  out
 }
 
 muni6 <- function(x) {
