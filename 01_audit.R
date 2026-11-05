@@ -29,8 +29,10 @@ if (length(missing_defl)) {
 fields_rows <- list()
 stats_rows <- list()
 code_rows <- list()
+missing_rows <- list()
 
 share_tab <- function(x, var, year, file) {
+  if (!length(x)) return(NULL)
   t <- as.data.table(table(code = x, useNA = "ifany"))
   t <- t[N >= MIN_CELL]
   t[, `:=`(year = year, file = file, variable = var, share = N / length(x))]
@@ -57,7 +59,13 @@ for (y in YEARS) {
       required = names(RAIS_FIELDS) %in% c(REQUIRED_FIELDS, WORKER_ID)
     )
     miss <- setdiff(c(REQUIRED_FIELDS, WORKER_ID), names(map))
-    if (length(miss)) log_msg("  ", fb, ": MISSING REQUIRED FIELDS: ", paste(miss, collapse = ", "))
+    if (length(miss)) {
+      log_msg("  ", fb, ": MISSING REQUIRED FIELDS: ", paste(miss, collapse = ", "))
+      log_msg("    columns in this file that matched nothing: ",
+              paste(setdiff(hdr, unlist(map, use.names = FALSE)), collapse = ", "))
+      missing_rows[[length(missing_rows) + 1]] <- data.table(year = y, file = fb,
+                                                            missing = paste(miss, collapse = ", "))
+    }
     if (!("age" %in% names(map) || "birth_date" %in% names(map))) log_msg("  ", fb, ": no age or birth date")
 
     raw <- read_cols(f, unlist(map, use.names = FALSE), n_max = AUDIT_ROWS)
@@ -106,6 +114,13 @@ for (y in YEARS) {
 write_out(rbindlist(fields_rows), "01_audit_fields.csv")
 write_out(rbindlist(stats_rows), "01_audit_stats.csv")
 write_out(rbindlist(code_rows), "01_audit_codes.csv")
+
+if (length(missing_rows)) {
+  log_msg("ACTION NEEDED: required fields not found in these files. ",
+          "Map them in COLUMN_MAP in config.R (see the 'matched nothing' lines above).")
+  m <- rbindlist(missing_rows)
+  for (i in seq_len(nrow(m))) log_msg("  ", m$year[i], " ", m$file[i], ": ", m$missing[i])
+}
 
 ################################################################################
 # Linkage: share of 2014 MG workers (valid ID) found anywhere in later files

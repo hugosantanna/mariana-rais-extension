@@ -13,7 +13,14 @@ RAIS_DIR <- "/path/to/rais"
 # Extract .7z/.zip archives first.
 rais_files <- function(year) {
   f <- list.files(RAIS_DIR, pattern = as.character(year), full.names = TRUE, recursive = TRUE)
-  f[grepl("\\.(txt|csv|gz|fst|parquet|dta|rds)$", f, ignore.case = TRUE)]
+  f <- f[grepl("\\.(txt|csv|gz|fst|parquet|dta|rds)$", f, ignore.case = TRUE)]
+  # One file per state (ac2010id.csv, ..., mg2010id.csv): with FILE_SCOPE "mg",
+  # read only the Minas Gerais files.
+  uf <- tolower(substr(basename(f), 1, 2))
+  states <- c("ac", "al", "am", "ap", "ba", "ce", "df", "es", "go", "ma", "mg", "ms", "mt", "pa",
+              "pb", "pe", "pi", "pr", "rj", "rn", "ro", "rr", "rs", "sc", "se", "sp", "to")
+  if (FILE_SCOPE == "mg" && "mg" %in% uf && any(uf %in% setdiff(states, "mg"))) f <- f[uf == "mg"]
+  f
 }
 
 # Years to process. 2010-2018 reproduce the paper; later years extend it.
@@ -39,7 +46,9 @@ TXT_SEP <- "auto"
 TXT_ENCODING <- "Latin-1"
 
 # Only if 01_audit.R reports a field as missing although the column exists
-# under an unusual name: map it here, e.g. list(wage_avg = "VL_REMUN_MEDIA").
+# under an unusual name: map it here, e.g. list(sep_cause = "causa_deslig").
+# A name only applies to files that have it, so year-specific names are fine.
+# Several candidates also work: list(sep_cause = c("causa_deslig", "motivo_desl")).
 COLUMN_MAP <- list()
 
 # Intermediate worker-level files. Contains identified microdata:

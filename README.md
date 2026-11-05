@@ -57,6 +57,10 @@ Windows shows paths with backslashes (`T:\Projetos\RAIS`). Either flip them to
 forward slashes or double them (`T:\\Projetos\\RAIS`). Single backslashes will
 not work in R.
 
+If the folder has one file per state (`ac2010id.csv`, ..., `mg2010id.csv`), the
+code reads only the Minas Gerais ones. Step 4 lists the files it picked for each
+year.
+
 Leave everything else as it is for now.
 
 ## Step 4. Check the setup (seconds)
@@ -82,7 +86,8 @@ This reads the column names and a sample of rows from each year, so we can be
 sure the files look the way the code expects. When it finishes, open
 **`outputs/run_log.txt`** and look for three things.
 
-1. **No line says `NO FILES FOUND` or `MISSING REQUIRED FIELDS`.**
+1. **No line says `NO FILES FOUND`, `MISSING REQUIRED FIELDS` or `ACTION NEEDED`.**
+   If one does, the fix is in [If something goes wrong](#if-something-goes-wrong).
 2. **The year lines look sensible.** For example
    `MG2019.txt: sampled 200,000 rows | MG 1.00 | PIS ok 0.99 | CPF ok 0.99 | wage NA 0.000`.
    `PIS ok` (or `CPF ok`) should be close to 1, and `wage NA` close to 0.
@@ -152,7 +157,7 @@ full-time or contract-type fields are coded, and Hugo can adjust that.
 | `config.R not found` or `Run these scripts from inside the rais_extension/ folder` | Close RStudio and reopen it by double-clicking `rais_extension.Rproj` (step 2). |
 | `RAIS_DIR does not exist` | Check the path in `config.R` for typos, and use `/` instead of `\`. |
 | `there is no package called '...'` | Run `install.packages("...")` with that package name. If the VM can't install packages, ask CDIA. |
-| `MISSING REQUIRED FIELDS: wage_avg` (or another field) | The file names that column differently. Look up its real name in `outputs/01_audit_fields.csv` or the file's header, then add it to `COLUMN_MAP` in `config.R`, for example `COLUMN_MAP <- list(wage_avg = "VL_REMUN_MEDIA")`. |
+| `MISSING REQUIRED FIELDS: sep_cause` (or another field) | The file names that column differently. The next log line lists the file's columns that matched nothing, and one of them is the right one. Add it to `COLUMN_MAP` in `config.R`, for example `COLUMN_MAP <- list(sep_cause = "causa_deslig")`, and run the audit again. The name only applies to files that have it, so a 2010-only name doesn't break other years. If you're not sure which column it is, send Hugo a photo of those log lines. |
 | `cannot allocate vector of size ...` or R crashes | The machine ran out of memory. Set `SAMPLE_SHARE <- 0.5` in `config.R`, delete `work` and `outputs`, restart R, and run again. Tell Hugo you did this. |
 | The Citrix session dropped mid-run | Delete `work` and `outputs`, reopen the project, and start step 7 again. |
 | Anything else | Send Hugo the error message (text only, no data rows) and `outputs/run_log.txt`. |

@@ -107,9 +107,11 @@ map_columns <- function(header) {
   hk2 <- key_bytes(header)
   out <- list()
   for (f in names(RAIS_FIELDS)) {
-    if (!is.null(COLUMN_MAP[[f]])) {
-      if (!COLUMN_MAP[[f]] %in% header) stop("COLUMN_MAP$", f, " = '", COLUMN_MAP[[f]], "' not in file header")
-      out[[f]] <- COLUMN_MAP[[f]]
+    # COLUMN_MAP names win when the file has them; otherwise fall back to the
+    # labels below, so a name that only exists in some years is fine.
+    hit <- intersect(COLUMN_MAP[[f]], header)
+    if (length(hit)) {
+      out[[f]] <- hit[1]
       next
     }
     labels <- RAIS_FIELDS[[f]]
@@ -255,6 +257,9 @@ harmonize_jobs <- function(raw, map, year) {
   n <- nrow(raw)
   na_chr <- rep(NA_character_, n)
   na_num <- rep(NA_real_, n)
+  # An unmapped required field becomes an NA column (01_audit reports it).
+  # Returning NULL here would make data.table drop every row.
+  req <- function(f) { v <- g(f); if (is.null(v)) na_chr else v }
 
   age <- if (!is.null(g("age"))) to_num(g("age")) else if (!is.null(g("birth_date"))) {
     year - as.integer(format(parse_dmy(g("birth_date")), "%Y"))
@@ -266,36 +271,36 @@ harmonize_jobs <- function(raw, map, year) {
                     as.numeric(format(hire, "%m")), hire_m)
   hire_m <- fifelse(!is.na(hire) & as.integer(format(hire, "%Y")) < year, 1, hire_m)
 
-  sex <- toupper(trimws(as_chr(g("sex"))))
+  sex <- toupper(trimws(as_chr(req("sex"))))
   sep_m <- if (!is.null(g("sep_month"))) to_num(g("sep_month")) else na_num
 
-  cnpj <- clean_id(g("cnpj"), 14)
+  cnpj <- clean_id(req("cnpj"), 14)
   root <- if (!is.null(g("cnpj_root"))) clean_id(g("cnpj_root"), 8) else substr(cnpj, 1, 8)
 
   data.table(
     pis           = if (!is.null(g("pis"))) clean_id(g("pis"), 11) else na_chr,
     cpf           = if (!is.null(g("cpf"))) clean_id(g("cpf"), 11) else na_chr,
     year          = as.integer(year),
-    municipality6 = muni6(g("muni")),
+    municipality6 = muni6(req("muni")),
     cnpj          = cnpj,
     firm_root     = root,
-    wage_avg      = to_num(g("wage_avg")),
+    wage_avg      = to_num(req("wage_avg")),
     wage_dec      = if (!is.null(g("wage_dec"))) to_num(g("wage_dec")) else na_num,
     wage_contract = if (!is.null(g("wage_contract"))) to_num(g("wage_contract")) else na_num,
-    hours         = to_num(g("hours")),
+    hours         = to_num(req("hours")),
     male          = fifelse(sex %chin% c("1", "01", "M", "MASCULINO"), 1L,
                     fifelse(sex %chin% c("2", "02", "F", "FEMININO"), 0L, NA_integer_)),
     race          = if (!is.null(g("race"))) pad_digits(g("race"), 2) else na_chr,
     age           = age,
     education     = if (!is.null(g("educ"))) pad_digits(g("educ"), 2) else na_chr,
-    tenure        = to_num(g("tenure")),
+    tenure        = to_num(req("tenure")),
     hire_month    = hire_m,
-    contract_type = trimws(as_chr(g("contract_type"))),
+    contract_type = trimws(as_chr(req("contract_type"))),
     sep_month     = sep_m,
-    sep_cause     = clean_sep_cause(g("sep_cause")),
+    sep_cause     = clean_sep_cause(req("sep_cause")),
     occupation_3d = if (!is.null(g("cbo"))) substr(pad_digits(g("cbo"), 6), 1, 3) else na_chr,
-    sector_2d     = substr(pad_digits(g("cnae"), 5), 1, 2),
-    nature        = gsub("[^0-9]", "", as_chr(g("nature"))),
+    sector_2d     = substr(pad_digits(req("cnae"), 5), 1, 2),
+    nature        = gsub("[^0-9]", "", as_chr(req("nature"))),
     estab_size    = if (!is.null(g("estab_size"))) to_num(g("estab_size")) else na_num
   )
 }
